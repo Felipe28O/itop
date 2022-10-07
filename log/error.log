@@ -1,0 +1,10 @@
+2022-10-06 17:45:57 | Info    | 1     | mysqldump -V 2>&1 said: sh: 1: mysqldump: not found | IssueLog |||
+2022-10-06 17:46:03 | Info    | 1     | Creating backup: '/var/www/html/itop/data/backups/manual/itop-2022-10-06_17_46.tar.gz' | IssueLog |||
+2022-10-06 17:46:03 | Info    | 1     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-520714315' | IssueLog |||
+2022-10-06 17:46:03 | Info    | 1     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
+2022-10-06 17:46:03 | Info    | 1     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
+2022-10-06 17:46:03 | Info    | 1     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-xyGDTf" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-520714315/itop-dump.sql' 'itop'  | IssueLog |||
+2022-10-06 17:46:03 | Info    | 1     | mysqldump said: sh: 1: mysqldump: not found | IssueLog |||
+2022-10-06 17:46:03 | Error   | 1     | Failed to execute: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-xyGDTf" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-520714315/itop-dump.sql' 'itop' . The command returned:127 | IssueLog |||
+2022-10-06 17:46:03 | Error   | 1     | mysqldump said: sh: 1: mysqldump: not found | IssueLog |||
+2022-10-06 17:46:03 | Error   | 1     | backup - Failed to execute mysqldump: sh: 1: mysqldump: not found | IssueLog |||

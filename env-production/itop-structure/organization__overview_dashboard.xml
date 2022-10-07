@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <layout>DashboardLayoutTwoCols</layout>
+  <auto_reload>
+    <enabled>false</enabled>
+    <interval>300</interval>
+  </auto_reload>
+  <cells xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cell id="0">
+      <rank>0</rank>
+      <dashlets>
+        <dashlet id="11" xsi:type="DashletHeaderDynamic">
+          <rank>0</rank>
+          <title>Organization:Overview:FunctionalCIs</title>
+          <style>
+            <icon>../images/icons/icons8-server.svg</icon>
+          </style>
+          <subtitle>Organization:Overview:FunctionalCIs:subtitle</subtitle>
+          <query>SELECT FunctionalCI WHERE org_id=:this-&gt;id</query>
+          <group_by>finalclass</group_by>
+          <values>NetworkDevice,Server,ApplicationSolution</values>
+        </dashlet>
+      </dashlets>
+    </cell>
+    <cell id="2">
+      <rank>20</rank>
+      <dashlets>
+        <dashlet id="12" xsi:type="DashletObjectList">
+          <rank>0</rank>
+          <title>Organization:Overview:Users</title>
+          <query>SELECT Person AS p JOIN User AS u ON u.contactid=p.id WHERE p.org_id=:this-&gt;id</query>
+          <menu>true</menu>
+        </dashlet>
+      </dashlets>
+    </cell>
+    <cell id="1" _altered_in="itop-request-mgmt-itil">
+      <rank>10</rank>
+      <dashlets>
+        <dashlet id="9" xsi:type="DashletHeaderDynamic">
+          <rank>0</rank>
+          <title>Organization:Overview:UserRequests</title>
+          <icon>itop-welcome-itil/images/user-request-deadline.svg</icon>
+          <subtitle>Menu:UserRequest:OpenRequests</subtitle>
+          <query>SELECT UserRequest WHERE status != "closed" AND org_id=:this-&gt;id</query>
+          <group_by>status</group_by>
+          <values>new,assigned,escalated_tto,escalated_ttr,resolved</values>
+        </dashlet>
+      </dashlets>
+    </cell>
+    <cell id="3" _altered_in="itop-request-mgmt-itil">
+      <rank>30</rank>
+      <dashlets>
+        <dashlet id="10" xsi:type="DashletObjectList">
+          <rank>0</rank>
+          <title>Organization:Overview:MyUserRequests</title>
+          <query>SELECT UserRequest AS i WHERE i.agent_id = :current_contact_id AND status NOT IN ("closed", "resolved")  AND org_id=:this-&gt;id</query>
+          <menu>true</menu>
+        </dashlet>
+        <dashlet id="13" xsi:type="DashletGroupByPie">
+          <rank>1</rank>
+          <title>Organization:Overview:Tickets</title>
+          <query>SELECT Ticket WHERE org_id = :this-&gt;id</query>
+          <group_by>finalclass</group_by>
+          <style>pie</style>
+          <aggregation_function>count</aggregation_function>
+          <aggregation_attribute/>
+          <limit/>
+          <order_by>attribute</order_by>
+          <order_direction>desc</order_direction>
+        </dashlet>
+      </dashlets>
+    </cell>
+  </cells>
+</dashboard>
