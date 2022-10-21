@@ -7,7 +7,7 @@ css/backoffice/main.css
 
 # no slash at the end to handle also symlinks
 toolkit
-env-*
+#env-*
 
 # maintenance mode (N°2240)
 .maintenance
@@ -31,8 +31,8 @@ data/**
 !data/.compilation-symlinks
 
 # iTop extensions
-extensions/**
-!extensions/readme.txt
+#extensions/**
+#!extensions/readme.txt
 
 # all logs but listing prevention
 log/**
