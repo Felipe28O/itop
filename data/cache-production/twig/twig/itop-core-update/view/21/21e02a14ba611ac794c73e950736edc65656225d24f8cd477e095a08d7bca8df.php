@@ -41,22 +41,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1b6d6124173544 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81e629805611265 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1b6d6124173544, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81e629805611265, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1b6d6124173544, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81e629805611265, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1b6d6124173544);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1b6d6124173544);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81e629805611265);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81e629805611265);
         ob_start();
         // line 6
         echo "
@@ -73,22 +73,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sTitle = $aParams['sTitle'];
         $sId = $aParams['sId'] ?? NULL;
-        $oTitle_634040bd1b715463461483 = Combodo\iTop\Application\UI\Base\Component\Title\TitleUIBlockFactory::MakeForPage(        $sTitle        ,         $sId        );
+        $oTitle_634f12b81e6f6121303184 = Combodo\iTop\Application\UI\Base\Component\Title\TitleUIBlockFactory::MakeForPage(        $sTitle        ,         $sId        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oTitle_634040bd1b715463461483, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oTitle_634f12b81e6f6121303184, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oTitle_634040bd1b715463461483, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oTitle_634f12b81e6f6121303184, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oTitle_634040bd1b715463461483);
-        array_push($context['UIBlockParent'], $oTitle_634040bd1b715463461483);
+        end($context['UIBlockParent'])->AddSubBlock($oTitle_634f12b81e6f6121303184);
+        array_push($context['UIBlockParent'], $oTitle_634f12b81e6f6121303184);
         ob_start();
         $sHtml = trim(ob_get_contents());
         ob_end_clean();
@@ -112,22 +112,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1b744236513307 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81e7cb829251495 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1b744236513307, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81e7cb829251495, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1b744236513307, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81e7cb829251495, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1b744236513307);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1b744236513307);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81e7cb829251495);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81e7cb829251495);
         ob_start();
         // line 12
         echo "        ";
@@ -142,22 +142,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sLegend = $aParams['sLegend'];
         $sId = $aParams['sId'] ?? NULL;
-        $oFieldSet_634040bd1b75e324152503 = Combodo\iTop\Application\UI\Base\Component\FieldSet\FieldSetUIBlockFactory::MakeStandard(        $sLegend        ,         $sId        );
+        $oFieldSet_634f12b81e84b914039440 = Combodo\iTop\Application\UI\Base\Component\FieldSet\FieldSetUIBlockFactory::MakeStandard(        $sLegend        ,         $sId        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oFieldSet_634040bd1b75e324152503, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oFieldSet_634f12b81e84b914039440, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oFieldSet_634040bd1b75e324152503, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oFieldSet_634f12b81e84b914039440, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oFieldSet_634040bd1b75e324152503);
-        array_push($context['UIBlockParent'], $oFieldSet_634040bd1b75e324152503);
+        end($context['UIBlockParent'])->AddSubBlock($oFieldSet_634f12b81e84b914039440);
+        array_push($context['UIBlockParent'], $oFieldSet_634f12b81e84b914039440);
         ob_start();
         // line 13
         echo "            ";
@@ -170,22 +170,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sTitle = $aParams['sTitle'] ?? '';
         $sContent = $aParams['sContent'] ?? '';
         $sId = $aParams['sId'] ?? NULL;
-        $oAlert_634040bd1b77d347390184 = Combodo\iTop\Application\UI\Base\Component\Alert\AlertUIBlockFactory::MakeForInformation(        $sTitle        ,         $sContent        ,         $sId        );
+        $oAlert_634f12b81e8db219216536 = Combodo\iTop\Application\UI\Base\Component\Alert\AlertUIBlockFactory::MakeForInformation(        $sTitle        ,         $sContent        ,         $sId        );
         $aSetters = ['Title','Content','Color','IsClosable','IsCollapsible','OpenedByDefault','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oAlert_634040bd1b77d347390184, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oAlert_634f12b81e8db219216536, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oAlert_634040bd1b77d347390184, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oAlert_634f12b81e8db219216536, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oAlert_634040bd1b77d347390184);
-        array_push($context['UIBlockParent'], $oAlert_634040bd1b77d347390184);
+        end($context['UIBlockParent'])->AddSubBlock($oAlert_634f12b81e8db219216536);
+        array_push($context['UIBlockParent'], $oAlert_634f12b81e8db219216536);
         ob_start();
         // line 14
         echo "                ";
@@ -198,22 +198,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1b79d064278630 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81e966467062012 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1b79d064278630, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81e966467062012, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1b79d064278630, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81e966467062012, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1b79d064278630);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1b79d064278630);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81e966467062012);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81e966467062012);
         ob_start();
         // line 15
         echo "                    ";
@@ -228,21 +228,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $aParams = [];
         $sId = $aParams['sId'] ?? NULL;
-        $oSpinner_634040bd1b7cd626486986 = Combodo\iTop\Application\UI\Base\Component\Spinner\SpinnerUIBlockFactory::MakeStandard(        $sId        );
+        $oSpinner_634f12b81ea1e692183267 = Combodo\iTop\Application\UI\Base\Component\Spinner\SpinnerUIBlockFactory::MakeStandard(        $sId        );
         $aSetters = ['CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oSpinner_634040bd1b7cd626486986, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oSpinner_634f12b81ea1e692183267, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oSpinner_634040bd1b7cd626486986, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oSpinner_634f12b81ea1e692183267, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oSpinner_634040bd1b7cd626486986);
+        end($context['UIBlockParent'])->AddSubBlock($oSpinner_634f12b81ea1e692183267);
         ob_start();
         // line 17
         echo "                ";
@@ -266,22 +266,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sTitle = $aParams['sTitle'];
         $sId = $aParams['sId'] ?? NULL;
-        $oCollapsibleSection_634040bd1b805163349232 = Combodo\iTop\Application\UI\Base\Component\CollapsibleSection\CollapsibleSectionUIBlockFactory::MakeStandard(        $sTitle        ,         $sId        );
+        $oCollapsibleSection_634f12b81eae5711362285 = Combodo\iTop\Application\UI\Base\Component\CollapsibleSection\CollapsibleSectionUIBlockFactory::MakeStandard(        $sTitle        ,         $sId        );
         $aSetters = ['OpenedByDefault','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oCollapsibleSection_634040bd1b805163349232, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oCollapsibleSection_634f12b81eae5711362285, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oCollapsibleSection_634040bd1b805163349232, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oCollapsibleSection_634f12b81eae5711362285, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oCollapsibleSection_634040bd1b805163349232);
-        array_push($context['UIBlockParent'], $oCollapsibleSection_634040bd1b805163349232);
+        end($context['UIBlockParent'])->AddSubBlock($oCollapsibleSection_634f12b81eae5711362285);
+        array_push($context['UIBlockParent'], $oCollapsibleSection_634f12b81eae5711362285);
         ob_start();
         // line 19
         echo "                    ";
@@ -294,22 +294,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1b857295970502 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81eb92419071640 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1b857295970502, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81eb92419071640, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1b857295970502, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81eb92419071640, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1b857295970502);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1b857295970502);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81eb92419071640);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81eb92419071640);
         ob_start();
         // line 20
         echo "                    ";
@@ -351,22 +351,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sLabel = $aParams['sLabel'] ?? '';
         $sLayout = $aParams['sLayout'] ?? 'small';
         $sId = $aParams['sId'] ?? NULL;
-        $oField_634040bd1b885376933745 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
+        $oField_634f12b81ec42703073599 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
         $aSetters = ['Layout','AttCode','AttType','AttLabel','IsReadOnly','IsMandatory','MustChange','MustPrompt','IsSlave','ValueRaw','Label','Value','Comments','ValueId','InputId','InputType','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oField_634040bd1b885376933745, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oField_634f12b81ec42703073599, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oField_634040bd1b885376933745, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oField_634f12b81ec42703073599, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oField_634040bd1b885376933745);
-        array_push($context['UIBlockParent'], $oField_634040bd1b885376933745);
+        end($context['UIBlockParent'])->AddSubBlock($oField_634f12b81ec42703073599);
+        array_push($context['UIBlockParent'], $oField_634f12b81ec42703073599);
         ob_start();
         // line 25
         echo "                ";
@@ -393,22 +393,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sLabel = $aParams['sLabel'] ?? '';
         $sLayout = $aParams['sLayout'] ?? 'small';
         $sId = $aParams['sId'] ?? NULL;
-        $oField_634040bd1b8f0867386181 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
+        $oField_634f12b81ee90546135921 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
         $aSetters = ['Layout','AttCode','AttType','AttLabel','IsReadOnly','IsMandatory','MustChange','MustPrompt','IsSlave','ValueRaw','Label','Value','Comments','ValueId','InputId','InputType','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oField_634040bd1b8f0867386181, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oField_634f12b81ee90546135921, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oField_634040bd1b8f0867386181, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oField_634f12b81ee90546135921, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oField_634040bd1b8f0867386181);
-        array_push($context['UIBlockParent'], $oField_634040bd1b8f0867386181);
+        end($context['UIBlockParent'])->AddSubBlock($oField_634f12b81ee90546135921);
+        array_push($context['UIBlockParent'], $oField_634f12b81ee90546135921);
         ob_start();
         // line 29
         echo "                ";
@@ -435,22 +435,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sLabel = $aParams['sLabel'] ?? '';
         $sLayout = $aParams['sLayout'] ?? 'small';
         $sId = $aParams['sId'] ?? NULL;
-        $oField_634040bd1b92b006850727 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
+        $oField_634f12b81efbe102765403 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
         $aSetters = ['Layout','AttCode','AttType','AttLabel','IsReadOnly','IsMandatory','MustChange','MustPrompt','IsSlave','ValueRaw','Label','Value','Comments','ValueId','InputId','InputType','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oField_634040bd1b92b006850727, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oField_634f12b81efbe102765403, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oField_634040bd1b92b006850727, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oField_634f12b81efbe102765403, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oField_634040bd1b92b006850727);
-        array_push($context['UIBlockParent'], $oField_634040bd1b92b006850727);
+        end($context['UIBlockParent'])->AddSubBlock($oField_634f12b81efbe102765403);
+        array_push($context['UIBlockParent'], $oField_634f12b81efbe102765403);
         ob_start();
         // line 33
         echo "                ";
@@ -461,21 +461,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $aParams = [];
         $sId = $aParams['sId'] ?? NULL;
-        $oSpinner_634040bd1b955500395906 = Combodo\iTop\Application\UI\Base\Component\Spinner\SpinnerUIBlockFactory::MakeStandard(        $sId        );
+        $oSpinner_634f12b81f091665229337 = Combodo\iTop\Application\UI\Base\Component\Spinner\SpinnerUIBlockFactory::MakeStandard(        $sId        );
         $aSetters = ['CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oSpinner_634040bd1b955500395906, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oSpinner_634f12b81f091665229337, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oSpinner_634040bd1b955500395906, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oSpinner_634f12b81f091665229337, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oSpinner_634040bd1b955500395906);
+        end($context['UIBlockParent'])->AddSubBlock($oSpinner_634f12b81f091665229337);
         ob_start();
         // line 34
         echo "            ";
@@ -499,22 +499,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sLabel = $aParams['sLabel'] ?? '';
         $sLayout = $aParams['sLayout'] ?? 'small';
         $sId = $aParams['sId'] ?? NULL;
-        $oField_634040bd1b975563048511 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
+        $oField_634f12b81f12a762716397 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
         $aSetters = ['Layout','AttCode','AttType','AttLabel','IsReadOnly','IsMandatory','MustChange','MustPrompt','IsSlave','ValueRaw','Label','Value','Comments','ValueId','InputId','InputType','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oField_634040bd1b975563048511, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oField_634f12b81f12a762716397, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oField_634040bd1b975563048511, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oField_634f12b81f12a762716397, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oField_634040bd1b975563048511);
-        array_push($context['UIBlockParent'], $oField_634040bd1b975563048511);
+        end($context['UIBlockParent'])->AddSubBlock($oField_634f12b81f12a762716397);
+        array_push($context['UIBlockParent'], $oField_634f12b81f12a762716397);
         ob_start();
         // line 37
         echo "                ";
@@ -525,21 +525,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $aParams = [];
         $sId = $aParams['sId'] ?? NULL;
-        $oSpinner_634040bd1b99a317009833 = Combodo\iTop\Application\UI\Base\Component\Spinner\SpinnerUIBlockFactory::MakeStandard(        $sId        );
+        $oSpinner_634f12b81f1d1528284144 = Combodo\iTop\Application\UI\Base\Component\Spinner\SpinnerUIBlockFactory::MakeStandard(        $sId        );
         $aSetters = ['CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oSpinner_634040bd1b99a317009833, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oSpinner_634f12b81f1d1528284144, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oSpinner_634040bd1b99a317009833, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oSpinner_634f12b81f1d1528284144, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oSpinner_634040bd1b99a317009833);
+        end($context['UIBlockParent'])->AddSubBlock($oSpinner_634f12b81f1d1528284144);
         ob_start();
         // line 38
         echo "            ";
@@ -563,22 +563,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sLabel = $aParams['sLabel'] ?? '';
         $sLayout = $aParams['sLayout'] ?? 'small';
         $sId = $aParams['sId'] ?? NULL;
-        $oField_634040bd1b9cb046074910 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
+        $oField_634f12b81f245516520326 = Combodo\iTop\Application\UI\Base\Component\Field\FieldUIBlockFactory::MakeStandard(        $sLabel        ,         $sLayout        ,         $sId        );
         $aSetters = ['Layout','AttCode','AttType','AttLabel','IsReadOnly','IsMandatory','MustChange','MustPrompt','IsSlave','ValueRaw','Label','Value','Comments','ValueId','InputId','InputType','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oField_634040bd1b9cb046074910, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oField_634f12b81f245516520326, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oField_634040bd1b9cb046074910, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oField_634f12b81f245516520326, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oField_634040bd1b9cb046074910);
-        array_push($context['UIBlockParent'], $oField_634040bd1b9cb046074910);
+        end($context['UIBlockParent'])->AddSubBlock($oField_634f12b81f245516520326);
+        array_push($context['UIBlockParent'], $oField_634f12b81f245516520326);
         ob_start();
         // line 41
         echo "                ";
@@ -617,22 +617,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sLegend = $aParams['sLegend'];
         $sId = $aParams['sId'] ?? NULL;
-        $oFieldSet_634040bd1ba3c747031874 = Combodo\iTop\Application\UI\Base\Component\FieldSet\FieldSetUIBlockFactory::MakeStandard(        $sLegend        ,         $sId        );
+        $oFieldSet_634f12b81f335177348150 = Combodo\iTop\Application\UI\Base\Component\FieldSet\FieldSetUIBlockFactory::MakeStandard(        $sLegend        ,         $sId        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oFieldSet_634040bd1ba3c747031874, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oFieldSet_634f12b81f335177348150, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oFieldSet_634040bd1ba3c747031874, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oFieldSet_634f12b81f335177348150, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oFieldSet_634040bd1ba3c747031874);
-        array_push($context['UIBlockParent'], $oFieldSet_634040bd1ba3c747031874);
+        end($context['UIBlockParent'])->AddSubBlock($oFieldSet_634f12b81f335177348150);
+        array_push($context['UIBlockParent'], $oFieldSet_634f12b81f335177348150);
         ob_start();
         // line 47
         echo "            ";
@@ -643,22 +643,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $aParams = [];
         $sId = $aParams['sId'] ?? NULL;
-        $oForm_634040bd1ba6f253554445 = Combodo\iTop\Application\UI\Base\Component\Form\FormUIBlockFactory::MakeStandard(        $sId        );
+        $oForm_634f12b81f3e4099251203 = Combodo\iTop\Application\UI\Base\Component\Form\FormUIBlockFactory::MakeStandard(        $sId        );
         $aSetters = ['OnSubmitJsCode','Action','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oForm_634040bd1ba6f253554445, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oForm_634f12b81f3e4099251203, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oForm_634040bd1ba6f253554445, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oForm_634f12b81f3e4099251203, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oForm_634040bd1ba6f253554445);
-        array_push($context['UIBlockParent'], $oForm_634040bd1ba6f253554445);
+        end($context['UIBlockParent'])->AddSubBlock($oForm_634f12b81f3e4099251203);
+        array_push($context['UIBlockParent'], $oForm_634f12b81f3e4099251203);
         ob_start();
         // line 48
         echo "                ";
@@ -677,21 +677,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sValue = $aParams['sValue'];
         $sId = $aParams['sId'] ?? NULL;
-        $oInput_634040bd1ba88745977080 = Combodo\iTop\Application\UI\Base\Component\Input\InputUIBlockFactory::MakeForHidden(        $sName        ,         $sValue        ,         $sId        );
+        $oInput_634f12b81f46a048096685 = Combodo\iTop\Application\UI\Base\Component\Input\InputUIBlockFactory::MakeForHidden(        $sName        ,         $sValue        ,         $sId        );
         $aSetters = ['Type','IsChecked','IsDisabled','IsReadonly','Label','Name','Value','Placeholder','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oInput_634040bd1ba88745977080, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oInput_634f12b81f46a048096685, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oInput_634040bd1ba88745977080, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oInput_634f12b81f46a048096685, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oInput_634040bd1ba88745977080);
+        end($context['UIBlockParent'])->AddSubBlock($oInput_634f12b81f46a048096685);
         ob_start();
         // line 49
         echo "                ";
@@ -710,21 +710,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sValue = $aParams['sValue'];
         $sId = $aParams['sId'] ?? NULL;
-        $oInput_634040bd1bab0413869151 = Combodo\iTop\Application\UI\Base\Component\Input\InputUIBlockFactory::MakeForHidden(        $sName        ,         $sValue        ,         $sId        );
+        $oInput_634f12b81f4fb707386986 = Combodo\iTop\Application\UI\Base\Component\Input\InputUIBlockFactory::MakeForHidden(        $sName        ,         $sValue        ,         $sId        );
         $aSetters = ['Type','IsChecked','IsDisabled','IsReadonly','Label','Name','Value','Placeholder','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oInput_634040bd1bab0413869151, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oInput_634f12b81f4fb707386986, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oInput_634040bd1bab0413869151, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oInput_634f12b81f4fb707386986, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oInput_634040bd1bab0413869151);
+        end($context['UIBlockParent'])->AddSubBlock($oInput_634f12b81f4fb707386986);
         ob_start();
         // line 50
         echo "
@@ -739,22 +739,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sTitle = $aParams['sTitle'] ?? '';
         $sContent = $aParams['sContent'] ?? '';
         $sId = $aParams['sId'] ?? NULL;
-        $oAlert_634040bd1bae5800211395 = Combodo\iTop\Application\UI\Base\Component\Alert\AlertUIBlockFactory::MakeForFailure(        $sTitle        ,         $sContent        ,         $sId        );
+        $oAlert_634f12b81f585913415059 = Combodo\iTop\Application\UI\Base\Component\Alert\AlertUIBlockFactory::MakeForFailure(        $sTitle        ,         $sContent        ,         $sId        );
         $aSetters = ['Title','Content','Color','IsClosable','IsCollapsible','OpenedByDefault','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oAlert_634040bd1bae5800211395, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oAlert_634f12b81f585913415059, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oAlert_634040bd1bae5800211395, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oAlert_634f12b81f585913415059, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oAlert_634040bd1bae5800211395);
-        array_push($context['UIBlockParent'], $oAlert_634040bd1bae5800211395);
+        end($context['UIBlockParent'])->AddSubBlock($oAlert_634f12b81f585913415059);
+        array_push($context['UIBlockParent'], $oAlert_634f12b81f585913415059);
         ob_start();
         // line 52
         echo "                    ";
@@ -767,22 +767,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1bb06051481986 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81f603332007927 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1bb06051481986, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81f603332007927, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1bb06051481986, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81f603332007927, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1bb06051481986);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1bb06051481986);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81f603332007927);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81f603332007927);
         ob_start();
         // line 53
         echo "                        ";
@@ -807,22 +807,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1bb53390049843 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81f6c4738074765 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1bb53390049843, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81f6c4738074765, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1bb53390049843, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81f6c4738074765, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1bb53390049843);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1bb53390049843);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81f6c4738074765);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81f6c4738074765);
         ob_start();
         // line 56
         echo "                        ";
@@ -847,22 +847,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1bbb5710015910 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81f780212150685 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1bbb5710015910, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81f780212150685, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1bbb5710015910, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81f780212150685, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1bbb5710015910);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1bbb5710015910);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81f780212150685);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81f780212150685);
         ob_start();
         // line 59
         echo "                        ";
@@ -898,22 +898,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sTitle = $aParams['sTitle'] ?? '';
         $sContent = $aParams['sContent'] ?? '';
         $sId = $aParams['sId'] ?? NULL;
-        $oAlert_634040bd1bc19174062508 = Combodo\iTop\Application\UI\Base\Component\Alert\AlertUIBlockFactory::MakeForInformation(        $sTitle        ,         $sContent        ,         $sId        );
+        $oAlert_634f12b81f849461739028 = Combodo\iTop\Application\UI\Base\Component\Alert\AlertUIBlockFactory::MakeForInformation(        $sTitle        ,         $sContent        ,         $sId        );
         $aSetters = ['Title','Content','Color','IsClosable','IsCollapsible','OpenedByDefault','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oAlert_634040bd1bc19174062508, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oAlert_634f12b81f849461739028, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oAlert_634040bd1bc19174062508, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oAlert_634f12b81f849461739028, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oAlert_634040bd1bc19174062508);
-        array_push($context['UIBlockParent'], $oAlert_634040bd1bc19174062508);
+        end($context['UIBlockParent'])->AddSubBlock($oAlert_634f12b81f849461739028);
+        array_push($context['UIBlockParent'], $oAlert_634f12b81f849461739028);
         ob_start();
         // line 64
         echo "                ";
@@ -942,21 +942,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sName = $aParams['sName'];
         $sId = $aParams['sId'] ?? NULL;
-        $oFileSelect_634040bd1bc94747629682 = Combodo\iTop\Application\UI\Base\Component\Input\FileSelect\FileSelectUIBlockFactory::MakeStandard(        $sName        ,         $sId        );
+        $oFileSelect_634f12b81f90d331107899 = Combodo\iTop\Application\UI\Base\Component\Input\FileSelect\FileSelectUIBlockFactory::MakeStandard(        $sName        ,         $sId        );
         $aSetters = ['FileName','ButtonText','ShowFilename','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oFileSelect_634040bd1bc94747629682, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oFileSelect_634f12b81f90d331107899, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oFileSelect_634040bd1bc94747629682, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oFileSelect_634f12b81f90d331107899, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oFileSelect_634040bd1bc94747629682);
+        end($context['UIBlockParent'])->AddSubBlock($oFileSelect_634f12b81f90d331107899);
         ob_start();
         // line 68
         echo "
@@ -971,22 +971,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sTitle = $aParams['sTitle'] ?? '';
         $sContent = $aParams['sContent'] ?? '';
         $sId = $aParams['sId'] ?? NULL;
-        $oAlert_634040bd1bcd4698525802 = Combodo\iTop\Application\UI\Base\Component\Alert\AlertUIBlockFactory::MakeForWarning(        $sTitle        ,         $sContent        ,         $sId        );
+        $oAlert_634f12b81f990537141736 = Combodo\iTop\Application\UI\Base\Component\Alert\AlertUIBlockFactory::MakeForWarning(        $sTitle        ,         $sContent        ,         $sId        );
         $aSetters = ['Title','Content','Color','IsClosable','IsCollapsible','OpenedByDefault','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oAlert_634040bd1bcd4698525802, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oAlert_634f12b81f990537141736, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oAlert_634040bd1bcd4698525802, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oAlert_634f12b81f990537141736, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oAlert_634040bd1bcd4698525802);
-        array_push($context['UIBlockParent'], $oAlert_634040bd1bcd4698525802);
+        end($context['UIBlockParent'])->AddSubBlock($oAlert_634f12b81f990537141736);
+        array_push($context['UIBlockParent'], $oAlert_634f12b81f990537141736);
         ob_start();
         // line 70
         echo "                    ";
@@ -1013,22 +1013,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1bd5b426981433 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81fa50966112218 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1bd5b426981433, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81fa50966112218, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1bd5b426981433, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81fa50966112218, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1bd5b426981433);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1bd5b426981433);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81fa50966112218);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81fa50966112218);
         ob_start();
         // line 74
         echo "                    ";
@@ -1051,21 +1051,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sValue = $aParams['sValue'];
         $sId = $aParams['sId'] ?? NULL;
-        $oInput_634040bd1bd9a530314947 = Combodo\iTop\Application\UI\Base\Component\Input\InputUIBlockFactory::MakeStandard(        $sType        ,         $sName        ,         $sValue        ,         $sId        );
+        $oInput_634f12b81fac0946686160 = Combodo\iTop\Application\UI\Base\Component\Input\InputUIBlockFactory::MakeStandard(        $sType        ,         $sName        ,         $sValue        ,         $sId        );
         $aSetters = ['Type','IsChecked','IsDisabled','IsReadonly','Label','Name','Value','Placeholder','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oInput_634040bd1bd9a530314947, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oInput_634f12b81fac0946686160, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oInput_634040bd1bd9a530314947, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oInput_634f12b81fac0946686160, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oInput_634040bd1bd9a530314947);
+        end($context['UIBlockParent'])->AddSubBlock($oInput_634f12b81fac0946686160);
         ob_start();
         // line 75
         echo "                ";
@@ -1089,22 +1089,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1bdef719265322 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81fb98672803939 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1bdef719265322, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81fb98672803939, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1bdef719265322, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81fb98672803939, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1bdef719265322);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1bdef719265322);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81fb98672803939);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81fb98672803939);
         ob_start();
         // line 78
         echo "                    ";
@@ -1127,21 +1127,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sValue = $aParams['sValue'];
         $sId = $aParams['sId'] ?? NULL;
-        $oInput_634040bd1be0a808951633 = Combodo\iTop\Application\UI\Base\Component\Input\InputUIBlockFactory::MakeStandard(        $sType        ,         $sName        ,         $sValue        ,         $sId        );
+        $oInput_634f12b81fc07076245554 = Combodo\iTop\Application\UI\Base\Component\Input\InputUIBlockFactory::MakeStandard(        $sType        ,         $sName        ,         $sValue        ,         $sId        );
         $aSetters = ['Type','IsChecked','IsDisabled','IsReadonly','Label','Name','Value','Placeholder','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oInput_634040bd1be0a808951633, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oInput_634f12b81fc07076245554, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oInput_634040bd1be0a808951633, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oInput_634f12b81fc07076245554, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oInput_634040bd1be0a808951633);
+        end($context['UIBlockParent'])->AddSubBlock($oInput_634f12b81fc07076245554);
         ob_start();
         // line 79
         echo "                ";
@@ -1165,22 +1165,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sId = $aParams['sId'] ?? NULL;
         $aContainerClasses = $aParams['aContainerClasses'] ?? array (
 );
-        $oUIContentBlock_634040bd1be87309026499 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
+        $oUIContentBlock_634f12b81fcdf282055772 = Combodo\iTop\Application\UI\Base\Layout\UIContentBlockUIBlockFactory::MakeStandard(        $sId        ,         $aContainerClasses        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oUIContentBlock_634040bd1be87309026499, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oUIContentBlock_634f12b81fcdf282055772, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oUIContentBlock_634040bd1be87309026499, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oUIContentBlock_634f12b81fcdf282055772, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634040bd1be87309026499);
-        array_push($context['UIBlockParent'], $oUIContentBlock_634040bd1be87309026499);
+        end($context['UIBlockParent'])->AddSubBlock($oUIContentBlock_634f12b81fcdf282055772);
+        array_push($context['UIBlockParent'], $oUIContentBlock_634f12b81fcdf282055772);
         ob_start();
         // line 82
         echo "                    ";
@@ -1198,21 +1198,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $sValue = $aParams['sValue'] ?? NULL;
         $bIsSubmit = $aParams['bIsSubmit'] ?? false;
         $sId = $aParams['sId'] ?? NULL;
-        $oButton_634040bd1bea5818853666 = Combodo\iTop\Application\UI\Base\Component\Button\ButtonUIBlockFactory::MakeForPrimaryAction(        $sLabel        ,         $sName        ,         $sValue        ,         $bIsSubmit        ,         $sId        );
+        $oButton_634f12b81fd49792432118 = Combodo\iTop\Application\UI\Base\Component\Button\ButtonUIBlockFactory::MakeForPrimaryAction(        $sLabel        ,         $sName        ,         $sValue        ,         $bIsSubmit        ,         $sId        );
         $aSetters = ['Label','Tooltip','IconClass','ActionType','Color','OnClickJsCode','JsCode','IsDisabled','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oButton_634040bd1bea5818853666, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oButton_634f12b81fd49792432118, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oButton_634040bd1bea5818853666, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oButton_634f12b81fd49792432118, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oButton_634040bd1bea5818853666);
+        end($context['UIBlockParent'])->AddSubBlock($oButton_634f12b81fd49792432118);
         ob_start();
         // line 83
         echo "                    ";
@@ -1223,21 +1223,21 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $aParams = ["sId" => "submit-wait", "IsHidden" => true];
         $sId = $aParams['sId'] ?? NULL;
-        $oSpinner_634040bd1bee6944303978 = Combodo\iTop\Application\UI\Base\Component\Spinner\SpinnerUIBlockFactory::MakeStandard(        $sId        );
+        $oSpinner_634f12b81fdf4853185849 = Combodo\iTop\Application\UI\Base\Component\Spinner\SpinnerUIBlockFactory::MakeStandard(        $sId        );
         $aSetters = ['CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oSpinner_634040bd1bee6944303978, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oSpinner_634f12b81fdf4853185849, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oSpinner_634040bd1bee6944303978, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oSpinner_634f12b81fdf4853185849, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oSpinner_634040bd1bee6944303978);
+        end($context['UIBlockParent'])->AddSubBlock($oSpinner_634f12b81fdf4853185849);
         ob_start();
         // line 84
         echo "                ";
@@ -1283,22 +1283,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         }
         $sLegend = $aParams['sLegend'];
         $sId = $aParams['sId'] ?? NULL;
-        $oFieldSet_634040bd1bf1e774622247 = Combodo\iTop\Application\UI\Base\Component\FieldSet\FieldSetUIBlockFactory::MakeStandard(        $sLegend        ,         $sId        );
+        $oFieldSet_634f12b81fe91425343815 = Combodo\iTop\Application\UI\Base\Component\FieldSet\FieldSetUIBlockFactory::MakeStandard(        $sLegend        ,         $sId        );
         $aSetters = ['SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oFieldSet_634040bd1bf1e774622247, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oFieldSet_634f12b81fe91425343815, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oFieldSet_634040bd1bf1e774622247, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oFieldSet_634f12b81fe91425343815, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oFieldSet_634040bd1bf1e774622247);
-        array_push($context['UIBlockParent'], $oFieldSet_634040bd1bf1e774622247);
+        end($context['UIBlockParent'])->AddSubBlock($oFieldSet_634f12b81fe91425343815);
+        array_push($context['UIBlockParent'], $oFieldSet_634f12b81fe91425343815);
         ob_start();
         // line 91
         echo "            ";
@@ -1318,22 +1318,22 @@ class __TwigTemplate_54d28ce008fa2851dba9376f4332622610633f2f2a52e6e874f11a986b7
         $oSet = $aParams['oSet'];
         $aExtraParams = $aParams['aExtraParams'] ?? array (
 );
-        $oDataTable_634040bd1bf3e304995770 = Combodo\iTop\Application\UI\Base\Component\DataTable\DataTableUIBlockFactory::MakeForRendering(        $sListId        ,         $oSet        ,         $aExtraParams        );
+        $oDataTable_634f12b81ff11624490588 = Combodo\iTop\Application\UI\Base\Component\DataTable\DataTableUIBlockFactory::MakeForRendering(        $sListId        ,         $oSet        ,         $aExtraParams        );
         $aSetters = ['AjaxUrl','AjaxData','DisplayColumns','ResultColumns','Options','InitDisplayData','SubBlocks','DeferredBlocks','HasForcedDiv','CSSClasses','DataAttributes','IsHidden','JSRefresh'];
         foreach ($aSetters as $sSetter) {
             if (isset($aParams["{$sSetter}"])) {
                 $sCmd = "Set{$sSetter}";
-                call_user_func([$oDataTable_634040bd1bf3e304995770, $sCmd], $aParams["{$sSetter}"]);
+                call_user_func([$oDataTable_634f12b81ff11624490588, $sCmd], $aParams["{$sSetter}"]);
             }
         }
         $aAdders = ['AddHtml','AddSubBlock','AddDeferredBlock','AddJsFileRelPath','AddMultipleJsFilesRelPaths','AddCssFileRelPath','AddMultipleCssFilesRelPaths','AddCSSClass','AddCSSClasses'];
         foreach ($aAdders as $sAdder) {
             if (isset($aParams["{$sAdder}"])) {
-                call_user_func([$oDataTable_634040bd1bf3e304995770, $sAdder], $aParams["{$sAdder}"]);
+                call_user_func([$oDataTable_634f12b81ff11624490588, $sAdder], $aParams["{$sAdder}"]);
             }
         }
-        end($context['UIBlockParent'])->AddSubBlock($oDataTable_634040bd1bf3e304995770);
-        array_push($context['UIBlockParent'], $oDataTable_634040bd1bf3e304995770);
+        end($context['UIBlockParent'])->AddSubBlock($oDataTable_634f12b81ff11624490588);
+        array_push($context['UIBlockParent'], $oDataTable_634f12b81ff11624490588);
         ob_start();
         $sHtml = trim(ob_get_contents());
         ob_end_clean();

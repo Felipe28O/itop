@@ -491,3 +491,1578 @@ Parameters:
 2022-10-04 18:03:33 | Info    |       | ##### STEP create-config duration: 0.47s | SetupLog |||
 2022-10-04 18:03:33 | Info    |       | operation 'async_action', peak memory usage. 15051960 | SetupLog |||
 2022-10-04 18:03:33 | Info    |       | MetaModel::Startup from /var/www/html/conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2022-10-10 18:41:42 | Error   |       | <b>Error:</b> the configuration file 'conf/production/config-itop.php' already exists and cannot be overwritten. | SetupLog |||
+2022-10-10 19:22:20 | Error   |       | <b>Error:</b> the configuration file 'conf/production/config-itop.php' already exists and cannot be overwritten. | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Info - CheckPHPVersion | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Info - php.ini file(s): '/etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini' | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Info - Temporary directory for files upload (/tmp) is writable. | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Info - upload_max_filesize: 2M | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Info - post_max_size: 8M | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Info - max_file_uploads: 20 | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Info - memory_limit is 128M, ok. | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Info - session.save_path is: '/var/lib/php/sessions'. | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run iTop, which is (7.1.3) | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run next iTop major release, which is (7.4.0) | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Required PHP extension(s): dom, fileinfo, gd, hash, iconv, json, mbstring, mysqli, pcre, session, simplexml, soap, zip, zlib. | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Optional PHP extension(s): curl, ldap, sodium, openssl. | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | APC detected (version 5.1.21). The APC cache will be used to speed-up iTop. | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | Loaded php.ini files: /etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini | SetupLog |||
+2022-10-10 19:22:53 | Ok      |       | The value for session.save_path (/var/lib/php/sessions) is writable for the web server. | SetupLog |||
+2022-10-10 19:22:55 | Ok      |       | Info - CheckBackupPrerequisites | SetupLog |||
+2022-10-10 19:22:55 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:22:55 | Ok      |       | Info - mysqldump -V said: sh: 1: mysqldump: not found | SetupLog |||
+2022-10-10 19:22:55 | Info    |       | operation 'async_action', peak memory usage. 3069568 | SetupLog |||
+2022-10-10 19:23:05 | Info    |       | GetApplicationVersion returns: product_name: iTop, product_version: 3.0.1-9191 | SetupLog |||
+2022-10-10 19:23:08 | Ok      |       | Info - CheckGraphviz | SetupLog |||
+2022-10-10 19:23:08 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:23:08 | Ok      |       | Info - /usr/bin/dot -V said: dot - graphviz version 2.43.0 (0) | SetupLog |||
+2022-10-10 19:23:08 | Info    |       | operation 'async_action', peak memory usage. 3070944 | SetupLog |||
+2022-10-10 19:23:39 | Ok      |       | Info - CheckGraphviz | SetupLog |||
+2022-10-10 19:23:39 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:23:39 | Ok      |       | Info - /usr/bin/dot -V said: dot - graphviz version 2.43.0 (0) | SetupLog |||
+2022-10-10 19:23:39 | Info    |       | operation 'async_action', peak memory usage. 3070944 | SetupLog |||
+2022-10-10 19:23:40 | Info    |       | GetApplicationVersion returns: product_name: iTop, product_version: 3.0.1-9191 | SetupLog |||
+2022-10-10 19:23:42 | Ok      |       | Info - CheckBackupPrerequisites | SetupLog |||
+2022-10-10 19:23:42 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:23:42 | Ok      |       | Info - mysqldump -V said: sh: 1: mysqldump: not found | SetupLog |||
+2022-10-10 19:23:42 | Info    |       | operation 'async_action', peak memory usage. 3068784 | SetupLog |||
+2022-10-10 19:23:53 | Ok      |       | Info - CheckBackupPrerequisites | SetupLog |||
+2022-10-10 19:23:53 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:23:53 | Ok      |       | Info - mysqldump -V said: sh: 1: mysqldump: not found | SetupLog |||
+2022-10-10 19:23:54 | Info    |       | operation 'async_action', peak memory usage. 3068784 | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Info - CheckPHPVersion | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Info - php.ini file(s): '/etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini' | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Info - Temporary directory for files upload (/tmp) is writable. | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Info - upload_max_filesize: 2M | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Info - post_max_size: 8M | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Info - max_file_uploads: 20 | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Info - memory_limit is 128M, ok. | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Info - session.save_path is: '/var/lib/php/sessions'. | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run iTop, which is (7.1.3) | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run next iTop major release, which is (7.4.0) | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Required PHP extension(s): dom, fileinfo, gd, hash, iconv, json, mbstring, mysqli, pcre, session, simplexml, soap, zip, zlib. | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Optional PHP extension(s): curl, ldap, sodium, openssl. | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | APC detected (version 5.1.21). The APC cache will be used to speed-up iTop. | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | Loaded php.ini files: /etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini | SetupLog |||
+2022-10-10 19:23:57 | Ok      |       | The value for session.save_path (/var/lib/php/sessions) is writable for the web server. | SetupLog |||
+2022-10-10 19:24:02 | Ok      |       | Info - CheckBackupPrerequisites | SetupLog |||
+2022-10-10 19:24:02 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:24:02 | Ok      |       | Info - mysqldump -V said: sh: 1: mysqldump: not found | SetupLog |||
+2022-10-10 19:24:02 | Info    |       | operation 'async_action', peak memory usage. 3068784 | SetupLog |||
+2022-10-10 19:24:26 | Info    |       | GetApplicationVersion returns: product_name: iTop, product_version: 3.0.1-9191 | SetupLog |||
+2022-10-10 19:24:27 | Ok      |       | Info - CheckGraphviz | SetupLog |||
+2022-10-10 19:24:27 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:24:27 | Ok      |       | Info - /usr/bin/dot -V said: dot - graphviz version 2.43.0 (0) | SetupLog |||
+2022-10-10 19:24:27 | Info    |       | operation 'async_action', peak memory usage. 3070944 | SetupLog |||
+2022-10-10 19:24:29 | Info    |       | GetApplicationVersion returns: product_name: iTop, product_version: 3.0.1-9191 | SetupLog |||
+2022-10-10 19:24:31 | Ok      |       | Info - CheckGraphviz | SetupLog |||
+2022-10-10 19:24:31 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:24:31 | Ok      |       | Info - /usr/bin/dot -V said: dot - graphviz version 2.43.0 (0) | SetupLog |||
+2022-10-10 19:24:31 | Info    |       | operation 'async_action', peak memory usage. 3070944 | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | ##### STEP  start | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | ----> Entering read only mode | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>3.0.1</datamodel_version>
+  <previous_configuration_file>/var/www/html/itop//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>mysql</server>
+    <user>app_user</user>
+    <pwd>**removed**</pwd>
+    <name>itop</name>
+    <db_tls_enabled></db_tls_enabled>
+    <db_tls_ca></db_tls_ca>
+    <prefix></prefix>
+  </database>
+  <url>https://app.q-vision.co/itop/</url>
+  <graphviz_path>/usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-cas</item>
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>combodo-backoffice-darkmoon-theme</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-files-information</item>
+    <item>itop-portal-base</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-structure</item>
+    <item>itop-welcome-itil</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-tickets</item>
+    <item>combodo-db-tools</item>
+    <item>combodo-webhook-integration</item>
+    <item>itop-core-update</item>
+    <item>itop-hub-connector</item>
+    <item>itop-themes-compat</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-bridge-cmdb-ticket</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-portal</item>
+    <item>itop-full-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-faq-light</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+  </selected_modules>
+  <selected_extensions type="array">
+    <item>itop-config-mgmt-core</item>
+    <item>itop-config-mgmt-datacenter</item>
+    <item>itop-config-mgmt-end-user</item>
+    <item>itop-config-mgmt-virtualization</item>
+    <item>itop-service-mgmt-enterprise</item>
+    <item>itop-ticket-mgmt-itil</item>
+    <item>itop-ticket-mgmt-itil-user-request</item>
+    <item>itop-ticket-mgmt-itil-incident</item>
+    <item>itop-ticket-mgmt-itil-enhanced-portal</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-kown-error-mgmt</item>
+    <item>itop-problem-mgmt</item>
+  </selected_extensions>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+  <mysql_bindir></mysql_bindir>
+</installation>
+
+ | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | ##### STEP  duration: 0.01s | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | operation 'async_action', peak memory usage. 3077640 | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | ##### STEP copy start | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | ##### STEP copy duration: 0s | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | operation 'async_action', peak memory usage. 3077200 | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | ##### STEP compile start | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | Compiling data model. | SetupLog |||
+2022-10-10 19:24:53 | Info    |       | ----> Entering maintenance mode | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/CONTRIBUTING.md' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/README.md' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/SECURITY.md' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/cs.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/da.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/datamodel.combodo-coverage-windows-computation.xml' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/de.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/en.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/es_cr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/fr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/hu.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/it.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/ja.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/license.txt' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/module.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/nl.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/pt_br.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/ru.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/sk.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/tr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/zh_cn.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/CONTRIBUTING.md' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/README.md' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/SECURITY.md' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/coveragewindow.class.inc.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/cs.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/css/fullcalendar.css' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/css/fullcalendar.print.css' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/css/style.css' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/da.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/datamodel.combodo-sla-computation.xml' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/de.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/en.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/es_cr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/fr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/hu.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/images/calendar.png' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/images/coverage-window.png' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/images/holiday.png' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/it.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/ja.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/js/cwcalendar.js' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/js/fullcalendar.js' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/js/fullcalendar.min.js' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/license.txt' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/main.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/module.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/nl.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/pt_br.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/ru.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/sk.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/tr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/zh_cn.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/extension.xml' | SetupLog |||
+2022-10-10 19:24:57 | Warning |       | CompileThemes: Theme #test-red has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:24:57 | Warning |       | CompileThemes: Theme #light-grey has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:24:57 | Info    |       | For theme 'darkmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/darkmoon.css' | SetupLog |||
+2022-10-10 19:24:57 | Warning |       | Cannot find /var/www/html/itop/env-production/branding/themes/darkmoon/images/arrow.png (images/arrow.png) during SCSS darkmoon precompilation | SetupLog |||
+2022-10-10 19:24:57 | Info    |       | No theme 'darkmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:24:57 | Info    |       | For theme 'fullmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/fullmoon.css' | SetupLog |||
+2022-10-10 19:24:58 | Info    |       | No theme 'fullmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:24:58 | Info    |       | For theme 'test-red' precompiled file used: '/var/www/html/itop/data/precompiled_styles/test-red.css' | SetupLog |||
+2022-10-10 19:24:58 | Info    |       | No theme 'test-red' compilation was required during setup. | SetupLog |||
+2022-10-10 19:24:58 | Info    |       | For theme 'light-grey' precompiled file used: '/var/www/html/itop/data/precompiled_styles/light-grey.css' | SetupLog |||
+2022-10-10 19:24:58 | Info    |       | No theme 'light-grey' compilation was required during setup. | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/CONTRIBUTING.md' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/README.md' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/SECURITY.md' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/cs.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/da.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/datamodel.combodo-coverage-windows-computation.xml' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/de.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/en.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/es_cr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/fr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/hu.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/it.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/ja.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/license.txt' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/module.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/nl.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/pt_br.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/ru.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/sk.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/tr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-coverage-windows-computation/zh_cn.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/CONTRIBUTING.md' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/README.md' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/SECURITY.md' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/coveragewindow.class.inc.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/cs.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/css/fullcalendar.css' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/css/fullcalendar.print.css' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/css/style.css' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/da.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/datamodel.combodo-sla-computation.xml' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/de.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/en.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/es_cr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/fr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/hu.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/images/calendar.png' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/images/coverage-window.png' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/images/holiday.png' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/it.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/ja.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/js/cwcalendar.js' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/js/fullcalendar.js' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/js/fullcalendar.min.js' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/license.txt' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/main.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/module.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/nl.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/pt_br.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/ru.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/sk.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/tr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/combodo-sla-computation/zh_cn.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:24:58 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-considering-business-hours/extension.xml' | SetupLog |||
+2022-10-10 19:24:58 | Info    |       | Data model successfully compiled to '/var/www/html/itop/env-production'. | SetupLog |||
+2022-10-10 19:24:58 | Info    |       | <---- Exiting maintenance mode | SetupLog |||
+2022-10-10 19:24:58 | Info    |       | ##### STEP compile duration: 4.65s | SetupLog |||
+2022-10-10 19:24:58 | Info    |       | operation 'async_action', peak memory usage. 26171448 | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | ##### STEP  start | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>3.0.1</datamodel_version>
+  <previous_configuration_file>/var/www/html/itop//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>mysql</server>
+    <user>app_user</user>
+    <pwd>**removed**</pwd>
+    <name>itop</name>
+    <db_tls_enabled></db_tls_enabled>
+    <db_tls_ca></db_tls_ca>
+    <prefix></prefix>
+  </database>
+  <url>https://app.q-vision.co/itop/</url>
+  <graphviz_path>/usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-cas</item>
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>combodo-backoffice-darkmoon-theme</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-files-information</item>
+    <item>itop-portal-base</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-structure</item>
+    <item>itop-welcome-itil</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-tickets</item>
+    <item>combodo-db-tools</item>
+    <item>combodo-webhook-integration</item>
+    <item>itop-core-update</item>
+    <item>itop-hub-connector</item>
+    <item>itop-themes-compat</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-bridge-cmdb-ticket</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-portal</item>
+    <item>itop-full-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-faq-light</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+  </selected_modules>
+  <selected_extensions type="array">
+    <item>itop-config-mgmt-core</item>
+    <item>itop-config-mgmt-datacenter</item>
+    <item>itop-config-mgmt-end-user</item>
+    <item>itop-config-mgmt-virtualization</item>
+    <item>itop-service-mgmt-enterprise</item>
+    <item>itop-ticket-mgmt-itil</item>
+    <item>itop-ticket-mgmt-itil-user-request</item>
+    <item>itop-ticket-mgmt-itil-incident</item>
+    <item>itop-ticket-mgmt-itil-enhanced-portal</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-kown-error-mgmt</item>
+    <item>itop-problem-mgmt</item>
+  </selected_extensions>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+  <mysql_bindir></mysql_bindir>
+</installation>
+
+ | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | ##### STEP  duration: 0s | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | operation 'async_action', peak memory usage. 3078648 | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | ##### STEP copy start | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | ##### STEP copy duration: 0s | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | operation 'async_action', peak memory usage. 3077896 | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | ##### STEP compile start | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | Compiling data model. | SetupLog |||
+2022-10-10 19:26:22 | Info    |       | ----> Entering maintenance mode | SetupLog |||
+2022-10-10 19:26:26 | Warning |       | CompileThemes: Theme #test-red has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:26:26 | Warning |       | CompileThemes: Theme #light-grey has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | For theme 'darkmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/darkmoon.css' | SetupLog |||
+2022-10-10 19:26:26 | Warning |       | Cannot find /var/www/html/itop/env-production/branding/themes/darkmoon/images/arrow.png (images/arrow.png) during SCSS darkmoon precompilation | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | No theme 'darkmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | For theme 'fullmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/fullmoon.css' | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | No theme 'fullmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | For theme 'test-red' precompiled file used: '/var/www/html/itop/data/precompiled_styles/test-red.css' | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | No theme 'test-red' compilation was required during setup. | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | For theme 'light-grey' precompiled file used: '/var/www/html/itop/data/precompiled_styles/light-grey.css' | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | No theme 'light-grey' compilation was required during setup. | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | Data model successfully compiled to '/var/www/html/itop/env-production'. | SetupLog |||
+2022-10-10 19:26:26 | Info    |       | <---- Exiting maintenance mode | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | ##### STEP compile duration: 4.25s | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | operation 'async_action', peak memory usage. 26110544 | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | ##### STEP db-schema start | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Update Database Schema for environment 'production'. | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | MetaModel::Startup (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming 'priv_internalUser' into 'priv_internaluser' (lowercase) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming 'priv_internalUser' failed (already done in a previous upgrade?) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Cleanup of 'priv_change' to remove orphan records | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | There is a total of 50 records in priv_change. | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | There are 0 useless records in priv_change (0.00%) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Ok, nothing to cleanup. | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | No orphan attachment found. | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Calling Module Handler: StructureInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Renaming class in DB - final class from 'IpPhone' to 'IPPhone': 0 rows affected | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Calling Module Handler: FAQLightInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Creating the structure in 'itop'. | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | 0.026s - query: ALTER TABLE `priv_trigger_onobject` CHANGE `target_class` `target_class` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'ApplicationSolution'  | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | 0.008s - query: ALTER TABLE `priv_sync_datasource` CHANGE `scope_class` `scope_class` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'lnkTriggerAction'  | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | 0.008s - query: ALTER TABLE `priv_sync_att_linkset` CHANGE `attribute_qualifier` `attribute_qualifier` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '\''  | SetupLog |||
+2022-10-10 19:26:27 | Ok      |       | Database structure successfully updated. | SetupLog |||
+2022-10-10 19:26:27 | Ok      |       | Start of rebuilt of hierchical keys. If you have problems with this step, you can skip it by creating a ".setup-rebuild-hkeys-never" file in data | SetupLog |||
+2022-10-10 19:26:27 | Ok      |       | Hierchical keys rebuilt: The attribute parent_id from Organization is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'organization'...
+Ok, table 'organization' successfully updated.
+The attribute parent_id from Group is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'group'...
+Ok, table 'group' successfully updated.
+ | SetupLog |||
+2022-10-10 19:26:27 | Ok      |       | Data sources checked: There are no Data Sources in the database.
+Ok.
+ | SetupLog |||
+2022-10-10 19:26:27 | Ok      |       | Meta enums rebuilt: Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_incident`.`status` IN ('assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_incident`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_incident`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_problem`.`status` IN ('assigned', 'new') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_problem`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_problem`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_request`.`status` IN ('approved', 'assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending', 'waiting_for_approval') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_request`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_request`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `change`.`status` IN ('approved', 'assigned', 'implemented', 'monitored', 'new', 'notapproved', 'plannedscheduled', 'validated') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `change`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+ | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | 'priv_change.origin' already initialized, nothing to do. | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | 'priv_async_task.status' already initialized, nothing to do. | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | Database Schema Successfully Updated for environment 'production'. | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | ##### STEP db-schema duration: 0.65s | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | operation 'async_action', peak memory usage. 19749336 | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | ##### STEP after-db-create start | SetupLog |||
+2022-10-10 19:26:27 | Info    |       | After Database Creation | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | MetaModel::Startup (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Initializing attachment/item_org_id - null to zero | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Initializing attachment/item_org_id - zero to the container | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Initializing attachment/item_org_id - 0 records have been adjusted | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | URP_Profiles::GetPredefinedObjects() returned 13 elements. | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | ##### STEP after-db-create duration: 0.11s | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | operation 'async_action', peak memory usage. 16395992 | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | ##### STEP load-data start | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | MetaModel::Startup (ModelOnly = ) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | starting data load session | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Loading file: /var/www/html/itop/env-production/combodo-webhook-integration/data.struct.remote_application_type.xml (just to get the keys mapping) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | loading of data.struct.remote_application_type.xml done. | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | ending data load session | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: StructureInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | ##### STEP load-data duration: 0.38s | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | operation 'async_action', peak memory usage. 13204232 | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | ##### STEP create-config start | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | MetaModel::Startup from /var/www/html/itop//conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | <---- Exiting read only mode | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | ##### STEP create-config duration: 0.31s | SetupLog |||
+2022-10-10 19:26:28 | Info    |       | operation 'async_action', peak memory usage. 15188504 | SetupLog |||
+2022-10-10 19:26:29 | Info    |       | MetaModel::Startup from /var/www/html/itop/conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:30:15 | Error   |       | <b>Error:</b> the configuration file 'conf/production/config-itop.php' already exists and cannot be overwritten. | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Info - CheckPHPVersion | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Info - php.ini file(s): '/etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini' | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Info - Temporary directory for files upload (/tmp) is writable. | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Info - upload_max_filesize: 2M | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Info - post_max_size: 8M | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Info - max_file_uploads: 20 | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Info - memory_limit is 128M, ok. | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Info - session.save_path is: '/var/lib/php/sessions'. | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run iTop, which is (7.1.3) | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run next iTop major release, which is (7.4.0) | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Required PHP extension(s): dom, fileinfo, gd, hash, iconv, json, mbstring, mysqli, pcre, session, simplexml, soap, zip, zlib. | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Optional PHP extension(s): curl, ldap, sodium, openssl. | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | APC detected (version 5.1.21). The APC cache will be used to speed-up iTop. | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | Loaded php.ini files: /etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini | SetupLog |||
+2022-10-10 19:30:27 | Ok      |       | The value for session.save_path (/var/lib/php/sessions) is writable for the web server. | SetupLog |||
+2022-10-10 19:30:28 | Ok      |       | Info - CheckBackupPrerequisites | SetupLog |||
+2022-10-10 19:30:28 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:30:28 | Ok      |       | Info - mysqldump -V said: sh: 1: mysqldump: not found | SetupLog |||
+2022-10-10 19:30:28 | Info    |       | operation 'async_action', peak memory usage. 3068984 | SetupLog |||
+2022-10-10 19:30:34 | Info    |       | GetApplicationVersion returns: product_name: iTop, product_version: 3.0.1-9191 | SetupLog |||
+2022-10-10 19:30:35 | Ok      |       | Info - CheckGraphviz | SetupLog |||
+2022-10-10 19:30:35 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:30:35 | Ok      |       | Info - /usr/bin/dot -V said: dot - graphviz version 2.43.0 (0) | SetupLog |||
+2022-10-10 19:30:35 | Info    |       | operation 'async_action', peak memory usage. 3071144 | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | ##### STEP  start | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | ----> Entering read only mode | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>3.0.1</datamodel_version>
+  <previous_configuration_file>/var/www/html/itop//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>mysql</server>
+    <user>app_user</user>
+    <pwd>**removed**</pwd>
+    <name>itop</name>
+    <db_tls_enabled></db_tls_enabled>
+    <db_tls_ca></db_tls_ca>
+    <prefix></prefix>
+  </database>
+  <url>https://app.q-vision.co/itop/</url>
+  <graphviz_path>/usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-cas</item>
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>combodo-backoffice-darkmoon-theme</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-files-information</item>
+    <item>itop-portal-base</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-structure</item>
+    <item>itop-welcome-itil</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-tickets</item>
+    <item>combodo-db-tools</item>
+    <item>combodo-webhook-integration</item>
+    <item>itop-core-update</item>
+    <item>itop-hub-connector</item>
+    <item>itop-themes-compat</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-bridge-cmdb-ticket</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-portal</item>
+    <item>itop-full-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-faq-light</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+  </selected_modules>
+  <selected_extensions type="array">
+    <item>itop-config-mgmt-core</item>
+    <item>itop-config-mgmt-datacenter</item>
+    <item>itop-config-mgmt-end-user</item>
+    <item>itop-config-mgmt-virtualization</item>
+    <item>itop-service-mgmt-enterprise</item>
+    <item>itop-ticket-mgmt-itil</item>
+    <item>itop-ticket-mgmt-itil-user-request</item>
+    <item>itop-ticket-mgmt-itil-incident</item>
+    <item>itop-ticket-mgmt-itil-enhanced-portal</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-kown-error-mgmt</item>
+    <item>itop-problem-mgmt</item>
+  </selected_extensions>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+  <mysql_bindir></mysql_bindir>
+</installation>
+
+ | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | ##### STEP  duration: 0s | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | operation 'async_action', peak memory usage. 3077840 | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | ##### STEP copy start | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | ##### STEP copy duration: 0s | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | operation 'async_action', peak memory usage. 3077400 | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | ##### STEP compile start | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | Compiling data model. | SetupLog |||
+2022-10-10 19:30:49 | Info    |       | ----> Entering maintenance mode | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/CONTRIBUTING.md' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/README.md' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/SECURITY.md' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/cs.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/da.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/datamodel.combodo-coverage-windows-computation.xml' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/de.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/en.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/es_cr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/fr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/hu.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/it.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/ja.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/license.txt' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/module.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/nl.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/pt_br.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/ru.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/sk.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/tr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/zh_cn.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/CONTRIBUTING.md' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/README.md' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/SECURITY.md' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/coveragewindow.class.inc.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/cs.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/css/fullcalendar.css' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/css/fullcalendar.print.css' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/css/style.css' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/da.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/datamodel.combodo-sla-computation.xml' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/de.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/en.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/es_cr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/fr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/hu.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/images/calendar.png' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/images/coverage-window.png' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/images/holiday.png' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/it.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/ja.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/js/cwcalendar.js' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/js/fullcalendar.js' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/js/fullcalendar.min.js' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/license.txt' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/main.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/module.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/nl.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/pt_br.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/ru.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/sk.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/tr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:49 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/zh_cn.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Warning |       | CompileThemes: Theme #test-red has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:30:53 | Warning |       | CompileThemes: Theme #light-grey has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | For theme 'darkmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/darkmoon.css' | SetupLog |||
+2022-10-10 19:30:53 | Warning |       | Cannot find /var/www/html/itop/env-production/branding/themes/darkmoon/images/arrow.png (images/arrow.png) during SCSS darkmoon precompilation | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | No theme 'darkmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | For theme 'fullmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/fullmoon.css' | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | No theme 'fullmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | For theme 'test-red' precompiled file used: '/var/www/html/itop/data/precompiled_styles/test-red.css' | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | No theme 'test-red' compilation was required during setup. | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | For theme 'light-grey' precompiled file used: '/var/www/html/itop/data/precompiled_styles/light-grey.css' | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | No theme 'light-grey' compilation was required during setup. | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/CONTRIBUTING.md' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/README.md' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/SECURITY.md' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/cs.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/da.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/datamodel.combodo-coverage-windows-computation.xml' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/de.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/en.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/es_cr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/fr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/hu.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/it.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/ja.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/license.txt' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/module.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/nl.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/pt_br.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/ru.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/sk.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/tr.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-coverage-windows-computation/zh_cn.dict.combodo-coverage-windows-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/CONTRIBUTING.md' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/README.md' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/SECURITY.md' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/coveragewindow.class.inc.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/cs.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/css/fullcalendar.css' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/css/fullcalendar.print.css' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/css/style.css' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/da.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/datamodel.combodo-sla-computation.xml' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/de.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/en.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/es_cr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/fr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/hu.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/images/calendar.png' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/images/coverage-window.png' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/images/holiday.png' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/it.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/ja.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/js/cwcalendar.js' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/js/fullcalendar.js' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/js/fullcalendar.min.js' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/license.txt' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/main.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/module.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/nl.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/pt_br.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/ru.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/sk.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/tr.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Ok      |       | Warning - FAILED to remove file '/var/www/html/itop/env-production/combodo-sla-computation/zh_cn.dict.combodo-sla-computation.php' | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | Data model successfully compiled to '/var/www/html/itop/env-production'. | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | <---- Exiting maintenance mode | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | ##### STEP compile duration: 4.14s | SetupLog |||
+2022-10-10 19:30:53 | Info    |       | operation 'async_action', peak memory usage. 26155064 | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | ##### STEP  start | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>3.0.1</datamodel_version>
+  <previous_configuration_file>/var/www/html/itop//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>mysql</server>
+    <user>app_user</user>
+    <pwd>**removed**</pwd>
+    <name>itop</name>
+    <db_tls_enabled></db_tls_enabled>
+    <db_tls_ca></db_tls_ca>
+    <prefix></prefix>
+  </database>
+  <url>https://app.q-vision.co/itop/</url>
+  <graphviz_path>/usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-cas</item>
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>combodo-backoffice-darkmoon-theme</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-files-information</item>
+    <item>itop-portal-base</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-structure</item>
+    <item>itop-welcome-itil</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-tickets</item>
+    <item>combodo-db-tools</item>
+    <item>combodo-webhook-integration</item>
+    <item>itop-core-update</item>
+    <item>itop-hub-connector</item>
+    <item>itop-themes-compat</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-bridge-cmdb-ticket</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-portal</item>
+    <item>itop-full-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-faq-light</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+  </selected_modules>
+  <selected_extensions type="array">
+    <item>itop-config-mgmt-core</item>
+    <item>itop-config-mgmt-datacenter</item>
+    <item>itop-config-mgmt-end-user</item>
+    <item>itop-config-mgmt-virtualization</item>
+    <item>itop-service-mgmt-enterprise</item>
+    <item>itop-ticket-mgmt-itil</item>
+    <item>itop-ticket-mgmt-itil-user-request</item>
+    <item>itop-ticket-mgmt-itil-incident</item>
+    <item>itop-ticket-mgmt-itil-enhanced-portal</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-kown-error-mgmt</item>
+    <item>itop-problem-mgmt</item>
+  </selected_extensions>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+  <mysql_bindir></mysql_bindir>
+</installation>
+
+ | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | ##### STEP  duration: 0s | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | operation 'async_action', peak memory usage. 3079256 | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | ##### STEP copy start | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | ##### STEP copy duration: 0s | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | operation 'async_action', peak memory usage. 3078056 | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | ##### STEP compile start | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | Compiling data model. | SetupLog |||
+2022-10-10 19:31:16 | Info    |       | ----> Entering maintenance mode | SetupLog |||
+2022-10-10 19:31:20 | Warning |       | CompileThemes: Theme #test-red has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:31:20 | Warning |       | CompileThemes: Theme #light-grey has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | For theme 'darkmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/darkmoon.css' | SetupLog |||
+2022-10-10 19:31:20 | Warning |       | Cannot find /var/www/html/itop/env-production/branding/themes/darkmoon/images/arrow.png (images/arrow.png) during SCSS darkmoon precompilation | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | No theme 'darkmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | For theme 'fullmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/fullmoon.css' | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | No theme 'fullmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | For theme 'test-red' precompiled file used: '/var/www/html/itop/data/precompiled_styles/test-red.css' | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | No theme 'test-red' compilation was required during setup. | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | For theme 'light-grey' precompiled file used: '/var/www/html/itop/data/precompiled_styles/light-grey.css' | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | No theme 'light-grey' compilation was required during setup. | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | Data model successfully compiled to '/var/www/html/itop/env-production'. | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | <---- Exiting maintenance mode | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | ##### STEP compile duration: 4.18s | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | operation 'async_action', peak memory usage. 26113296 | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | ##### STEP db-schema start | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | Update Database Schema for environment 'production'. | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | MetaModel::Startup (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | Renaming 'priv_internalUser' into 'priv_internaluser' (lowercase) | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | Renaming 'priv_internalUser' failed (already done in a previous upgrade?) | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | Cleanup of 'priv_change' to remove orphan records | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | There is a total of 53 records in priv_change. | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | There are 2 useless records in priv_change (3.77%) | SetupLog |||
+2022-10-10 19:31:20 | Info    |       | Removing the orphan records... | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Cleanup completed successfully. | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | No orphan attachment found. | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: StructureInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Renaming class in DB - final class from 'IpPhone' to 'IPPhone': 0 rows affected | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: FAQLightInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Creating the structure in 'itop'. | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | 0.007s - query: ALTER TABLE `priv_sync_att_linkset` CHANGE `attribute_qualifier` `attribute_qualifier` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '\''  | SetupLog |||
+2022-10-10 19:31:21 | Ok      |       | Database structure successfully updated. | SetupLog |||
+2022-10-10 19:31:21 | Ok      |       | Start of rebuilt of hierchical keys. If you have problems with this step, you can skip it by creating a ".setup-rebuild-hkeys-never" file in data | SetupLog |||
+2022-10-10 19:31:21 | Ok      |       | Hierchical keys rebuilt: The attribute parent_id from Organization is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'organization'...
+Ok, table 'organization' successfully updated.
+The attribute parent_id from Group is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'group'...
+Ok, table 'group' successfully updated.
+ | SetupLog |||
+2022-10-10 19:31:21 | Ok      |       | Data sources checked: There are no Data Sources in the database.
+Ok.
+ | SetupLog |||
+2022-10-10 19:31:21 | Ok      |       | Meta enums rebuilt: Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_incident`.`status` IN ('assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_incident`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_incident`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_problem`.`status` IN ('assigned', 'new') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_problem`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_problem`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_request`.`status` IN ('approved', 'assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending', 'waiting_for_approval') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_request`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_request`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `change`.`status` IN ('approved', 'assigned', 'implemented', 'monitored', 'new', 'notapproved', 'plannedscheduled', 'validated') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `change`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+ | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | 'priv_change.origin' already initialized, nothing to do. | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | 'priv_async_task.status' already initialized, nothing to do. | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Database Schema Successfully Updated for environment 'production'. | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | ##### STEP db-schema duration: 0.53s | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | operation 'async_action', peak memory usage. 19744304 | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | ##### STEP after-db-create start | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | After Database Creation | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | MetaModel::Startup (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Initializing attachment/item_org_id - null to zero | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Initializing attachment/item_org_id - zero to the container | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Initializing attachment/item_org_id - 0 records have been adjusted | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | URP_Profiles::GetPredefinedObjects() returned 13 elements. | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | ##### STEP after-db-create duration: 0.17s | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | operation 'async_action', peak memory usage. 16395992 | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | ##### STEP load-data start | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | MetaModel::Startup (ModelOnly = ) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | starting data load session | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Loading file: /var/www/html/itop/env-production/combodo-webhook-integration/data.struct.remote_application_type.xml (just to get the keys mapping) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | loading of data.struct.remote_application_type.xml done. | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | ending data load session | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: StructureInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | ##### STEP load-data duration: 0.36s | SetupLog |||
+2022-10-10 19:31:21 | Info    |       | operation 'async_action', peak memory usage. 30033456 | SetupLog |||
+2022-10-10 19:31:22 | Info    |       | ##### STEP create-config start | SetupLog |||
+2022-10-10 19:31:22 | Info    |       | MetaModel::Startup from /var/www/html/itop//conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:31:22 | Info    |       | <---- Exiting read only mode | SetupLog |||
+2022-10-10 19:31:22 | Info    |       | ##### STEP create-config duration: 0.36s | SetupLog |||
+2022-10-10 19:31:22 | Info    |       | operation 'async_action', peak memory usage. 15386376 | SetupLog |||
+2022-10-10 19:31:22 | Info    |       | MetaModel::Startup from /var/www/html/itop/conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:34:42 | Error   |       | <b>Error:</b> the configuration file 'conf/production/config-itop.php' already exists and cannot be overwritten. | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Info - CheckPHPVersion | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Info - php.ini file(s): '/etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini' | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Info - Temporary directory for files upload (/tmp) is writable. | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Info - upload_max_filesize: 2M | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Info - post_max_size: 8M | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Info - max_file_uploads: 20 | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Info - memory_limit is 128M, ok. | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Info - session.save_path is: '/var/lib/php/sessions'. | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run iTop, which is (7.1.3) | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run next iTop major release, which is (7.4.0) | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Required PHP extension(s): dom, fileinfo, gd, hash, iconv, json, mbstring, mysqli, pcre, session, simplexml, soap, zip, zlib. | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Optional PHP extension(s): curl, ldap, sodium, openssl. | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | APC detected (version 5.1.21). The APC cache will be used to speed-up iTop. | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | Loaded php.ini files: /etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini | SetupLog |||
+2022-10-10 19:34:53 | Ok      |       | The value for session.save_path (/var/lib/php/sessions) is writable for the web server. | SetupLog |||
+2022-10-10 19:34:55 | Ok      |       | Info - CheckBackupPrerequisites | SetupLog |||
+2022-10-10 19:34:55 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:34:55 | Ok      |       | Info - mysqldump -V said: sh: 1: mysqldump: not found | SetupLog |||
+2022-10-10 19:34:55 | Info    |       | operation 'async_action', peak memory usage. 3068984 | SetupLog |||
+2022-10-10 19:34:56 | Info    |       | GetApplicationVersion returns: product_name: iTop, product_version: 3.0.1-9191 | SetupLog |||
+2022-10-10 19:34:57 | Ok      |       | Info - CheckGraphviz | SetupLog |||
+2022-10-10 19:34:57 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 19:34:57 | Ok      |       | Info - /usr/bin/dot -V said: dot - graphviz version 2.43.0 (0) | SetupLog |||
+2022-10-10 19:34:57 | Info    |       | operation 'async_action', peak memory usage. 3071144 | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | ##### STEP  start | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | ----> Entering read only mode | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>3.0.1</datamodel_version>
+  <previous_configuration_file>/var/www/html/itop//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>mysql</server>
+    <user>app_user</user>
+    <pwd>**removed**</pwd>
+    <name>itop</name>
+    <db_tls_enabled></db_tls_enabled>
+    <db_tls_ca></db_tls_ca>
+    <prefix></prefix>
+  </database>
+  <url>https://app.q-vision.co/itop/</url>
+  <graphviz_path>/usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-cas</item>
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>combodo-backoffice-darkmoon-theme</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-files-information</item>
+    <item>itop-portal-base</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-structure</item>
+    <item>itop-welcome-itil</item>
+    <item>combodo-sla-computation</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-tickets</item>
+    <item>combodo-db-tools</item>
+    <item>combodo-webhook-integration</item>
+    <item>itop-core-update</item>
+    <item>itop-hub-connector</item>
+    <item>itop-themes-compat</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-bridge-cmdb-ticket</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-portal</item>
+    <item>itop-full-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-faq-light</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+    <item>combodo-coverage-windows-computation</item>
+  </selected_modules>
+  <selected_extensions type="array">
+    <item>itop-config-mgmt-core</item>
+    <item>itop-config-mgmt-datacenter</item>
+    <item>itop-config-mgmt-end-user</item>
+    <item>itop-config-mgmt-virtualization</item>
+    <item>itop-service-mgmt-enterprise</item>
+    <item>itop-ticket-mgmt-itil</item>
+    <item>itop-ticket-mgmt-itil-user-request</item>
+    <item>itop-ticket-mgmt-itil-incident</item>
+    <item>itop-ticket-mgmt-itil-enhanced-portal</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-kown-error-mgmt</item>
+    <item>itop-problem-mgmt</item>
+    <item>combodo-sla-considering-business-hours</item>
+  </selected_extensions>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+  <mysql_bindir></mysql_bindir>
+</installation>
+
+ | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | ##### STEP  duration: 0.01s | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | operation 'async_action', peak memory usage. 3078352 | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | ##### STEP copy start | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | ##### STEP copy duration: 0s | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | operation 'async_action', peak memory usage. 3077912 | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | ##### STEP compile start | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | Compiling data model. | SetupLog |||
+2022-10-10 19:35:20 | Info    |       | ----> Entering maintenance mode | SetupLog |||
+2022-10-10 19:35:24 | Warning |       | CompileThemes: Theme #test-red has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:35:24 | Warning |       | CompileThemes: Theme #light-grey has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | For theme 'darkmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/darkmoon.css' | SetupLog |||
+2022-10-10 19:35:24 | Warning |       | Cannot find /var/www/html/itop/env-production/branding/themes/darkmoon/images/arrow.png (images/arrow.png) during SCSS darkmoon precompilation | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | No theme 'darkmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | For theme 'fullmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/fullmoon.css' | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | No theme 'fullmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | For theme 'test-red' precompiled file used: '/var/www/html/itop/data/precompiled_styles/test-red.css' | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | No theme 'test-red' compilation was required during setup. | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | For theme 'light-grey' precompiled file used: '/var/www/html/itop/data/precompiled_styles/light-grey.css' | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | No theme 'light-grey' compilation was required during setup. | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | Data model successfully compiled to '/var/www/html/itop/env-production'. | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | <---- Exiting maintenance mode | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | ##### STEP compile duration: 4.34s | SetupLog |||
+2022-10-10 19:35:24 | Info    |       | operation 'async_action', peak memory usage. 26332280 | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | ##### STEP db-schema start | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Update Database Schema for environment 'production'. | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | MetaModel::Startup (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming 'priv_internalUser' into 'priv_internaluser' (lowercase) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming 'priv_internalUser' failed (already done in a previous upgrade?) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Cleanup of 'priv_change' to remove orphan records | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | There is a total of 54 records in priv_change. | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | There are 2 useless records in priv_change (3.70%) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Removing the orphan records... | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Cleanup completed successfully. | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | No orphan attachment found. | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: StructureInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Renaming class in DB - final class from 'IpPhone' to 'IPPhone': 0 rows affected | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: FAQLightInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: CoverageWindowInstaller::BeforeDatabaseCreation(oConfig, , 2.4.0) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: CoverageWindowComputationInstaller::BeforeDatabaseCreation(oConfig, , 2.0.7) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Creating the structure in 'itop'. | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | 0.017s - query: CREATE TABLE `coverage_windows` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', INDEX `name` (`name` (95)), `description` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci) ENGINE = innodb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci  | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | 0.012s - query: CREATE TABLE `coverage_windows_interval` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `coverage_window_id` INT(11) DEFAULT 0, INDEX `coverage_window_id` (`coverage_window_id`), `weekday` ENUM('friday','monday','saturday','sunday','thursday','tuesday','wednesday') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT 'monday', INDEX `weekday` (`weekday`), `start_time` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', INDEX `start_time` (`start_time` (95)), `end_time` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '') ENGINE = innodb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci  | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | 0.011s - query: CREATE TABLE `holidays` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', INDEX `name` (`name` (95)), `date` DATE, `calendar_id` INT(11) DEFAULT 0, INDEX `calendar_id` (`calendar_id`)) ENGINE = innodb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci  | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | 0.010s - query: CREATE TABLE `holiday_calendar` (`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '', INDEX `name` (`name` (95))) ENGINE = innodb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci  | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | 0.007s - query: ALTER TABLE `priv_sync_att_linkset` CHANGE `attribute_qualifier` `attribute_qualifier` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '\''  | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | 0.009s - query: ALTER TABLE `lnkcustomercontracttoservice` ADD `coveragewindow_id` INT(11) DEFAULT 0  | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | 0.011s - query: ALTER TABLE `lnkcustomercontracttoservice` ADD INDEX `coveragewindow_id` (`coveragewindow_id`)  | SetupLog |||
+2022-10-10 19:35:25 | Ok      |       | Database structure successfully updated. | SetupLog |||
+2022-10-10 19:35:25 | Ok      |       | Start of rebuilt of hierchical keys. If you have problems with this step, you can skip it by creating a ".setup-rebuild-hkeys-never" file in data | SetupLog |||
+2022-10-10 19:35:25 | Ok      |       | Hierchical keys rebuilt: The attribute parent_id from Organization is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'organization'...
+Ok, table 'organization' successfully updated.
+The attribute parent_id from Group is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'group'...
+Ok, table 'group' successfully updated.
+ | SetupLog |||
+2022-10-10 19:35:25 | Ok      |       | Data sources checked: There are no Data Sources in the database.
+Ok.
+ | SetupLog |||
+2022-10-10 19:35:25 | Ok      |       | Meta enums rebuilt: Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_incident`.`status` IN ('assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_incident`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_incident`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_problem`.`status` IN ('assigned', 'new') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_problem`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_problem`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_request`.`status` IN ('approved', 'assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending', 'waiting_for_approval') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_request`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_request`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `change`.`status` IN ('approved', 'assigned', 'implemented', 'monitored', 'new', 'notapproved', 'plannedscheduled', 'validated') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `change`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+ | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | 'priv_change.origin' already initialized, nothing to do. | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | 'priv_async_task.status' already initialized, nothing to do. | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Database Schema Successfully Updated for environment 'production'. | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | ##### STEP db-schema duration: 0.61s | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | operation 'async_action', peak memory usage. 20163816 | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | ##### STEP after-db-create start | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | After Database Creation | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | MetaModel::Startup (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Initializing attachment/item_org_id - null to zero | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Initializing attachment/item_org_id - zero to the container | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Initializing attachment/item_org_id - 0 records have been adjusted | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: CoverageWindowInstaller::AfterDatabaseCreation(oConfig, , 2.4.0) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: CoverageWindowComputationInstaller::AfterDatabaseCreation(oConfig, , 2.0.7) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | URP_Profiles::GetPredefinedObjects() returned 13 elements. | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: CoverageWindowInstaller::AfterDatabaseSetup(oConfig, , 2.4.0) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | Calling Module Handler: CoverageWindowComputationInstaller::AfterDatabaseSetup(oConfig, , 2.0.7) | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | ##### STEP after-db-create duration: 0.13s | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | operation 'async_action', peak memory usage. 16785384 | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | ##### STEP load-data start | SetupLog |||
+2022-10-10 19:35:25 | Info    |       | MetaModel::Startup (ModelOnly = ) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | starting data load session | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Loading file: /var/www/html/itop/env-production/combodo-webhook-integration/data.struct.remote_application_type.xml (just to get the keys mapping) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | loading of data.struct.remote_application_type.xml done. | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | ending data load session | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: StructureInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: CoverageWindowInstaller::AfterDataLoad(oConfig, , 2.4.0) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | Calling Module Handler: CoverageWindowComputationInstaller::AfterDataLoad(oConfig, , 2.0.7) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | ##### STEP load-data duration: 0.4s | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | operation 'async_action', peak memory usage. 30696312 | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | ##### STEP create-config start | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | MetaModel::Startup from /var/www/html/itop//conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | <---- Exiting read only mode | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | ##### STEP create-config duration: 0.4s | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | operation 'async_action', peak memory usage. 15787928 | SetupLog |||
+2022-10-10 19:35:26 | Info    |       | MetaModel::Startup from /var/www/html/itop/conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2022-10-10 20:31:28 | Info    |       | ----> Entering maintenance mode | SetupLog |||
+2022-10-10 20:31:39 | Warning |       | CompileThemes: Theme #test-red has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 20:31:39 | Warning |       | CompileThemes: Theme #light-grey has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 20:31:39 | Info    |       | For theme 'darkmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/darkmoon.css' | SetupLog |||
+2022-10-10 20:31:39 | Warning |       | Cannot find /var/www/html/itop/env-production/branding/themes/darkmoon/images/arrow.png (images/arrow.png) during SCSS darkmoon precompilation | SetupLog |||
+2022-10-10 20:31:39 | Info    |       | No theme 'darkmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 20:31:39 | Info    |       | For theme 'fullmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/fullmoon.css' | SetupLog |||
+2022-10-10 20:31:39 | Info    |       | No theme 'fullmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 20:31:39 | Info    |       | For theme 'test-red' precompiled file used: '/var/www/html/itop/data/precompiled_styles/test-red.css' | SetupLog |||
+2022-10-10 20:31:40 | Info    |       | No theme 'test-red' compilation was required during setup. | SetupLog |||
+2022-10-10 20:31:40 | Info    |       | For theme 'light-grey' precompiled file used: '/var/www/html/itop/data/precompiled_styles/light-grey.css' | SetupLog |||
+2022-10-10 20:31:40 | Info    |       | No theme 'light-grey' compilation was required during setup. | SetupLog |||
+2022-10-10 20:31:40 | Info    |       | <---- Exiting maintenance mode | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Info - CheckPHPVersion | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Info - php.ini file(s): '/etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini' | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Info - Temporary directory for files upload (/tmp) is writable. | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Info - upload_max_filesize: 2M | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Info - post_max_size: 8M | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Info - max_file_uploads: 20 | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Info - memory_limit is 128M, ok. | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Info - session.save_path is: '/var/lib/php/sessions'. | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run iTop, which is (7.1.3) | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | The current PHP Version (7.4.29) is greater than the minimum version required to run next iTop major release, which is (7.4.0) | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Required PHP extension(s): dom, fileinfo, gd, hash, iconv, json, mbstring, mysqli, pcre, session, simplexml, soap, zip, zlib. | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Optional PHP extension(s): curl, ldap, sodium, openssl. | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | APC detected (version 5.1.21). The APC cache will be used to speed-up iTop. | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | Loaded php.ini files: /etc/php/7.4/apache2/php.ini, /etc/php/7.4/apache2/conf.d/10-mysqlnd.ini, /etc/php/7.4/apache2/conf.d/10-opcache.ini, /etc/php/7.4/apache2/conf.d/10-pdo.ini, /etc/php/7.4/apache2/conf.d/15-xml.ini, /etc/php/7.4/apache2/conf.d/20-apcu.ini, /etc/php/7.4/apache2/conf.d/20-calendar.ini, /etc/php/7.4/apache2/conf.d/20-ctype.ini, /etc/php/7.4/apache2/conf.d/20-curl.ini, /etc/php/7.4/apache2/conf.d/20-dom.ini, /etc/php/7.4/apache2/conf.d/20-exif.ini, /etc/php/7.4/apache2/conf.d/20-ffi.ini, /etc/php/7.4/apache2/conf.d/20-fileinfo.ini, /etc/php/7.4/apache2/conf.d/20-ftp.ini, /etc/php/7.4/apache2/conf.d/20-gd.ini, /etc/php/7.4/apache2/conf.d/20-gettext.ini, /etc/php/7.4/apache2/conf.d/20-iconv.ini, /etc/php/7.4/apache2/conf.d/20-json.ini, /etc/php/7.4/apache2/conf.d/20-ldap.ini, /etc/php/7.4/apache2/conf.d/20-mbstring.ini, /etc/php/7.4/apache2/conf.d/20-mysqli.ini, /etc/php/7.4/apache2/conf.d/20-pdo_mysql.ini, /etc/php/7.4/apache2/conf.d/20-phar.ini, /etc/php/7.4/apache2/conf.d/20-posix.ini, /etc/php/7.4/apache2/conf.d/20-readline.ini, /etc/php/7.4/apache2/conf.d/20-shmop.ini, /etc/php/7.4/apache2/conf.d/20-simplexml.ini, /etc/php/7.4/apache2/conf.d/20-soap.ini, /etc/php/7.4/apache2/conf.d/20-sockets.ini, /etc/php/7.4/apache2/conf.d/20-sysvmsg.ini, /etc/php/7.4/apache2/conf.d/20-sysvsem.ini, /etc/php/7.4/apache2/conf.d/20-sysvshm.ini, /etc/php/7.4/apache2/conf.d/20-tokenizer.ini, /etc/php/7.4/apache2/conf.d/20-xmlreader.ini, /etc/php/7.4/apache2/conf.d/20-xmlwriter.ini, /etc/php/7.4/apache2/conf.d/20-xsl.ini, /etc/php/7.4/apache2/conf.d/20-zip.ini, /etc/php/7.4/apache2/conf.d/25-apcu_bc.ini | SetupLog |||
+2022-10-10 21:55:27 | Ok      |       | The value for session.save_path (/var/lib/php/sessions) is writable for the web server. | SetupLog |||
+2022-10-10 21:55:28 | Ok      |       | Info - CheckBackupPrerequisites | SetupLog |||
+2022-10-10 21:55:28 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 21:55:28 | Ok      |       | Info - mysqldump -V said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | SetupLog |||
+2022-10-10 21:55:29 | Info    |       | operation 'async_action', peak memory usage. 3067408 | SetupLog |||
+2022-10-10 21:55:30 | Info    |       | GetApplicationVersion returns: product_name: iTop, product_version: 3.0.1-9191 | SetupLog |||
+2022-10-10 21:55:31 | Ok      |       | Info - CheckGraphviz | SetupLog |||
+2022-10-10 21:55:31 | Ok      |       | Info - PHP functions disabled: pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifstopped,pcntl_wifsignaled,pcntl_wifcontinued,pcntl_wexitstatus,pcntl_wtermsig,pcntl_wstopsig,pcntl_signal,pcntl_signal_get_handler,pcntl_signal_dispatch,pcntl_get_last_error,pcntl_strerror,pcntl_sigprocmask,pcntl_sigwaitinfo,pcntl_sigtimedwait,pcntl_exec,pcntl_getpriority,pcntl_setpriority,pcntl_async_signals,pcntl_unshare, | SetupLog |||
+2022-10-10 21:55:31 | Ok      |       | Info - /usr/bin/dot -V said: dot - graphviz version 2.43.0 (0) | SetupLog |||
+2022-10-10 21:55:31 | Info    |       | operation 'async_action', peak memory usage. 3068784 | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ##### STEP  start | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ----> Entering read only mode | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ======= Installation starts =======
+Parameters:
+<?xml version="1.0" encoding="UTF-8"?>
+<installation>
+  <mode>upgrade</mode>
+  <preinstall>
+    <copies type="array"/>
+    <backup>
+      <destination>/var/www/html/itop/data/backups/manual/setup-2022-10-10_21_55</destination>
+      <configuration_file>/var/www/html/itop//conf/production/config-itop.php</configuration_file>
+    </backup>
+  </preinstall>
+  <source_dir>datamodels/2.x/</source_dir>
+  <datamodel_version>3.0.1</datamodel_version>
+  <previous_configuration_file>/var/www/html/itop//conf/production/config-itop.php</previous_configuration_file>
+  <extensions_dir>extensions</extensions_dir>
+  <target_env>production</target_env>
+  <workspace_dir></workspace_dir>
+  <database>
+    <server>mysql</server>
+    <user>app_user</user>
+    <pwd>**removed**</pwd>
+    <name>itop</name>
+    <db_tls_enabled></db_tls_enabled>
+    <db_tls_ca></db_tls_ca>
+    <prefix></prefix>
+  </database>
+  <url>https://app.q-vision.co/itop/</url>
+  <graphviz_path>/usr/bin/dot</graphviz_path>
+  <admin_account>
+    <user></user>
+    <pwd>**removed**</pwd>
+    <language></language>
+  </admin_account>
+  <language></language>
+  <selected_modules type="array">
+    <item>authent-cas</item>
+    <item>authent-external</item>
+    <item>authent-ldap</item>
+    <item>authent-local</item>
+    <item>combodo-backoffice-darkmoon-theme</item>
+    <item>itop-backup</item>
+    <item>itop-config</item>
+    <item>itop-files-information</item>
+    <item>itop-portal-base</item>
+    <item>itop-profiles-itil</item>
+    <item>itop-sla-computation</item>
+    <item>itop-structure</item>
+    <item>itop-welcome-itil</item>
+    <item>combodo-sla-computation</item>
+    <item>itop-config-mgmt</item>
+    <item>itop-attachments</item>
+    <item>itop-tickets</item>
+    <item>combodo-db-tools</item>
+    <item>combodo-webhook-integration</item>
+    <item>itop-core-update</item>
+    <item>itop-hub-connector</item>
+    <item>itop-themes-compat</item>
+    <item>itop-datacenter-mgmt</item>
+    <item>itop-endusers-devices</item>
+    <item>itop-virtualization-mgmt</item>
+    <item>itop-service-mgmt</item>
+    <item>itop-bridge-cmdb-ticket</item>
+    <item>itop-request-mgmt-itil</item>
+    <item>itop-incident-mgmt-itil</item>
+    <item>itop-portal</item>
+    <item>itop-full-itil</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-faq-light</item>
+    <item>itop-knownerror-mgmt</item>
+    <item>itop-problem-mgmt</item>
+    <item>combodo-coverage-windows-computation</item>
+  </selected_modules>
+  <selected_extensions type="array">
+    <item>itop-config-mgmt-core</item>
+    <item>itop-config-mgmt-datacenter</item>
+    <item>itop-config-mgmt-end-user</item>
+    <item>itop-config-mgmt-virtualization</item>
+    <item>itop-service-mgmt-enterprise</item>
+    <item>itop-ticket-mgmt-itil</item>
+    <item>itop-ticket-mgmt-itil-user-request</item>
+    <item>itop-ticket-mgmt-itil-incident</item>
+    <item>itop-ticket-mgmt-itil-enhanced-portal</item>
+    <item>itop-change-mgmt-itil</item>
+    <item>itop-kown-error-mgmt</item>
+    <item>itop-problem-mgmt</item>
+    <item>combodo-sla-considering-business-hours</item>
+  </selected_extensions>
+  <sample_data></sample_data>
+  <old_addon></old_addon>
+  <options type="array"/>
+  <mysql_bindir></mysql_bindir>
+</installation>
+
+ | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ##### STEP  duration: 0.01s | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | operation 'async_action', peak memory usage. 3076136 | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ##### STEP copy start | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ##### STEP copy duration: 0s | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | operation 'async_action', peak memory usage. 3075616 | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ##### STEP backup start | SetupLog |||
+2022-10-10 21:55:41 | Ok      |       | Info - Creating backup: '/var/www/html/itop/data/backups/manual/setup-2022-10-10_21_55.tar.gz' | SetupLog |||
+2022-10-10 21:55:41 | Ok      |       | Info - backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-68915787' | SetupLog |||
+2022-10-10 21:55:41 | Ok      |       | Info - backup: adding resource '/var/www/html/itop//conf/production/config-itop.php' | SetupLog |||
+2022-10-10 21:55:41 | Ok      |       | Info - Starting backup of mysql/itop(suffix:'') | SetupLog |||
+2022-10-10 21:55:41 | Ok      |       | Info - backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-qc27AO" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-68915787/itop-dump.sql' 'itop'  | SetupLog |||
+2022-10-10 21:55:41 | Ok      |       | Info - backup: adding to archive files 'array (
+  0 => '/var/www/html/itop/data/tmp-backup-68915787/config-itop.php',
+  1 => '/var/www/html/itop/data/tmp-backup-68915787/itop-dump.sql',
+)' | SetupLog |||
+2022-10-10 21:55:41 | Ok      |       | Info - backup: removing tmp folder '/var/www/html/itop/data/tmp-backup-68915787' | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ##### STEP backup duration: 0.33s | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | operation 'async_action', peak memory usage. 4364600 | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ##### STEP compile start | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | Compiling data model. | SetupLog |||
+2022-10-10 21:55:41 | Info    |       | ----> Entering maintenance mode | SetupLog |||
+2022-10-10 21:55:45 | Warning |       | CompileThemes: Theme #test-red has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 21:55:45 | Warning |       | CompileThemes: Theme #light-grey has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-10 21:55:45 | Info    |       | For theme 'darkmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/darkmoon.css' | SetupLog |||
+2022-10-10 21:55:45 | Warning |       | Cannot find /var/www/html/itop/env-production/branding/themes/darkmoon/images/arrow.png (images/arrow.png) during SCSS darkmoon precompilation | SetupLog |||
+2022-10-10 21:55:45 | Info    |       | No theme 'darkmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 21:55:45 | Info    |       | For theme 'fullmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/fullmoon.css' | SetupLog |||
+2022-10-10 21:55:45 | Info    |       | No theme 'fullmoon' compilation was required during setup. | SetupLog |||
+2022-10-10 21:55:45 | Info    |       | For theme 'test-red' precompiled file used: '/var/www/html/itop/data/precompiled_styles/test-red.css' | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | No theme 'test-red' compilation was required during setup. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | For theme 'light-grey' precompiled file used: '/var/www/html/itop/data/precompiled_styles/light-grey.css' | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | No theme 'light-grey' compilation was required during setup. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Data model successfully compiled to '/var/www/html/itop/env-production'. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | <---- Exiting maintenance mode | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | ##### STEP compile duration: 4.59s | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | operation 'async_action', peak memory usage. 26329728 | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | ##### STEP db-schema start | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Update Database Schema for environment 'production'. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | MetaModel::Startup (ModelOnly = 1) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming 'priv_internalUser' into 'priv_internaluser' (lowercase) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming 'priv_internalUser' failed (already done in a previous upgrade?) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Cleanup of 'priv_change' to remove orphan records | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | There is a total of 89 records in priv_change. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | There are 3 useless records in priv_change (3.37%) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Removing the orphan records... | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Cleanup completed successfully. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: AttachmentInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | No orphan attachment found. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: StructureInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: TicketsInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'DBserver' to 'DBServer': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'OSfamily' to 'OSFamily': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'OSversion' to 'OSVersion': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'Webserver' to 'WebServer': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'OSpatch' to 'OSPatch': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'OsLicence' to 'OSLicence': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'IOSversion' to 'IOSVersion': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'IPinterface' to 'IPInterface': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Renaming class in DB - final class from 'IpPhone' to 'IPPhone': 0 rows affected | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: FAQLightInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::BeforeDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: CoverageWindowInstaller::BeforeDatabaseCreation(oConfig, 2.4.0, 2.4.0) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Calling Module Handler: CoverageWindowComputationInstaller::BeforeDatabaseCreation(oConfig, 2.0.7, 2.0.7) | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Creating the structure in 'itop'. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | 0.014s - query: ALTER TABLE `priv_sync_att_linkset` CHANGE `attribute_qualifier` `attribute_qualifier` VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT '\''  | SetupLog |||
+2022-10-10 21:55:46 | Ok      |       | Database structure successfully updated. | SetupLog |||
+2022-10-10 21:55:46 | Ok      |       | Start of rebuilt of hierchical keys. If you have problems with this step, you can skip it by creating a ".setup-rebuild-hkeys-never" file in data | SetupLog |||
+2022-10-10 21:55:46 | Ok      |       | Hierchical keys rebuilt: The attribute parent_id from Organization is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'organization'...
+Ok, table 'organization' successfully updated.
+The attribute parent_id from Group is a hierarchical key.
+Rebuilding the fields parent_id_right and parent_id_left from table 'group'...
+Ok, table 'group' successfully updated.
+ | SetupLog |||
+2022-10-10 21:55:46 | Ok      |       | Data sources checked: There are no Data Sources in the database.
+Ok.
+ | SetupLog |||
+2022-10-10 21:55:46 | Ok      |       | Meta enums rebuilt: Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_incident`.`status` IN ('assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_incident`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_incident` ON `ticket_incident`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_incident`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_problem`.`status` IN ('assigned', 'new') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_problem`.`status` IN ('closed') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_problem` ON `ticket_problem`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_problem`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `ticket_request`.`status` IN ('approved', 'assigned', 'escalated_tto', 'escalated_ttr', 'new', 'pending', 'waiting_for_approval') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `ticket_request`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+Executing query: UPDATE `ticket` JOIN `ticket_request` ON `ticket_request`.id = `ticket`.id SET `ticket`.`operational_status` = 'resolved' WHERE `ticket_request`.`status` IN ('resolved') AND `ticket`.`operational_status` != 'resolved'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'ongoing' WHERE `change`.`status` IN ('approved', 'assigned', 'implemented', 'monitored', 'new', 'notapproved', 'plannedscheduled', 'validated') AND `ticket`.`operational_status` != 'ongoing'
+Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET `ticket`.`operational_status` = 'closed' WHERE `change`.`status` IN ('closed', 'rejected') AND `ticket`.`operational_status` != 'closed'
+ | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | 'priv_change.origin' already initialized, nothing to do. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | 'priv_async_task.status' already initialized, nothing to do. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | Database Schema Successfully Updated for environment 'production'. | SetupLog |||
+2022-10-10 21:55:46 | Info    |       | ##### STEP db-schema duration: 0.52s | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | operation 'async_action', peak memory usage. 20186792 | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | ##### STEP after-db-create start | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | After Database Creation | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | MetaModel::Startup (ModelOnly = 1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Initializing attachment/item_org_id - null to zero | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Initializing attachment/item_org_id - zero to the container | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Initializing attachment/item_org_id - 0 records have been adjusted | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseCreation(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: CoverageWindowInstaller::AfterDatabaseCreation(oConfig, 2.4.0, 2.4.0) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: CoverageWindowComputationInstaller::AfterDatabaseCreation(oConfig, 2.0.7, 2.0.7) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | URP_Profiles::GetPredefinedObjects() returned 13 elements. | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: StructureInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDatabaseSetup(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: CoverageWindowInstaller::AfterDatabaseSetup(oConfig, 2.4.0, 2.4.0) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: CoverageWindowComputationInstaller::AfterDatabaseSetup(oConfig, 2.0.7, 2.0.7) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | ##### STEP after-db-create duration: 0.13s | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | operation 'async_action', peak memory usage. 16783216 | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | ##### STEP load-data start | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | MetaModel::Startup (ModelOnly = ) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | starting data load session | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Loading file: /var/www/html/itop/env-production/combodo-webhook-integration/data.struct.remote_application_type.xml (just to get the keys mapping) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | loading of data.struct.remote_application_type.xml done. | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | ending data load session | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: AuthentLDAPInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: AttachmentInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: StructureInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: TicketsInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: ConfigMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: EndUserMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: FAQLightInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: ServiceMgmtInstaller::AfterDataLoad(oConfig, 3.0.1, 3.0.1) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: CoverageWindowInstaller::AfterDataLoad(oConfig, 2.4.0, 2.4.0) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | Calling Module Handler: CoverageWindowComputationInstaller::AfterDataLoad(oConfig, 2.0.7, 2.0.7) | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | ##### STEP load-data duration: 0.35s | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | operation 'async_action', peak memory usage. 30695576 | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | ##### STEP create-config start | SetupLog |||
+2022-10-10 21:55:47 | Info    |       | MetaModel::Startup from /var/www/html/itop//conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2022-10-10 21:55:48 | Info    |       | <---- Exiting read only mode | SetupLog |||
+2022-10-10 21:55:48 | Info    |       | ##### STEP create-config duration: 0.37s | SetupLog |||
+2022-10-10 21:55:48 | Info    |       | operation 'async_action', peak memory usage. 21076552 | SetupLog |||
+2022-10-10 21:55:48 | Info    |       | MetaModel::Startup from /var/www/html/itop/conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
+2022-10-11 02:12:10 | Info    |       | ----> Entering maintenance mode | SetupLog |||
+2022-10-11 02:12:21 | Warning |       | CompileThemes: Theme #test-red has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-11 02:12:21 | Warning |       | CompileThemes: Theme #light-grey has an import (#css-variables) without explicit xsi:type, it will be ignored. Check Datamodel XML Reference to fix it. | SetupLog |||
+2022-10-11 02:12:21 | Info    |       | For theme 'darkmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/darkmoon.css' | SetupLog |||
+2022-10-11 02:12:21 | Warning |       | Cannot find /var/www/html/itop/env-production/branding/themes/darkmoon/images/arrow.png (images/arrow.png) during SCSS darkmoon precompilation | SetupLog |||
+2022-10-11 02:12:21 | Info    |       | No theme 'darkmoon' compilation was required during setup. | SetupLog |||
+2022-10-11 02:12:21 | Info    |       | For theme 'fullmoon' precompiled file used: '/var/www/html/itop/data/precompiled_styles/fullmoon.css' | SetupLog |||
+2022-10-11 02:12:21 | Info    |       | No theme 'fullmoon' compilation was required during setup. | SetupLog |||
+2022-10-11 02:12:21 | Info    |       | For theme 'test-red' precompiled file used: '/var/www/html/itop/data/precompiled_styles/test-red.css' | SetupLog |||
+2022-10-11 02:12:21 | Info    |       | No theme 'test-red' compilation was required during setup. | SetupLog |||
+2022-10-11 02:12:21 | Info    |       | For theme 'light-grey' precompiled file used: '/var/www/html/itop/data/precompiled_styles/light-grey.css' | SetupLog |||
+2022-10-11 02:12:21 | Info    |       | No theme 'light-grey' compilation was required during setup. | SetupLog |||
+2022-10-11 02:12:21 | Info    |       | <---- Exiting maintenance mode | SetupLog |||
+2022-10-19 19:32:18 | Info    | 5     | iTop is configured to use the <b>SMTP</b> transport. | SetupLog |||
+2022-10-19 19:32:18 | Info    | 5     | SMTP configuration (from config-itop.php): host: mail.qvision.com.co, port: 25, user: qvimd@qvision.com.co", password: ********, encryption: <em>no encryption</em> . | SetupLog |||
+2022-10-19 19:32:18 | Ok      | 5     | PHP settings are ok to proceed with a test of the email | SetupLog |||
+2022-10-19 19:32:44 | Error   | 5     | Error: 'Failed to authenticate on SMTP server with username &quot;qvimd@qvision.com.co&quot;&quot; using 3 possible authenticators' | SetupLog |||
+2022-10-19 19:34:02 | Info    | 5     | iTop is configured to use the <b>SMTP</b> transport. | SetupLog |||
+2022-10-19 19:34:02 | Info    | 5     | SMTP configuration (from config-itop.php): host: mail.qvision.com.co, port: 25, user: qvimd@qvision.com.co, password: ********, encryption: <em>no encryption</em> . | SetupLog |||
+2022-10-19 19:34:02 | Ok      | 5     | PHP settings are ok to proceed with a test of the email | SetupLog |||
+2022-10-19 19:34:17 | Ok      | 5     | The email has been sent, check your inbox for the incoming mail... | SetupLog |||
+2022-10-19 19:34:45 | Info    | 5     | iTop is configured to use the <b>SMTP</b> transport. | SetupLog |||
+2022-10-19 19:34:45 | Info    | 5     | SMTP configuration (from config-itop.php): host: mail.qvision.com.co, port: 25, user: qvimd@qvision.com.co, password: ********, encryption: <em>no encryption</em> . | SetupLog |||
+2022-10-19 19:34:45 | Ok      | 5     | PHP settings are ok to proceed with a test of the email | SetupLog |||
+2022-10-19 16:52:20 | Info    | 1     | iTop is configured to use the <b>SMTP</b> transport. | SetupLog |||
+2022-10-19 16:52:20 | Info    | 1     | SMTP configuration (from config-itop.php): host: mail.qvision.com.co, port: 25, user: qvimd@qvision.com.co, password: ********, encryption: <em>no encryption</em> . | SetupLog |||
+2022-10-19 16:52:20 | Ok      | 1     | PHP settings are ok to proceed with a test of the email | SetupLog |||
+2022-10-19 16:52:41 | Error   | 1     | Error: 'Connection could not be established with host mail.qvision.com.co [No route to host #113]' | SetupLog |||

@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2022-10-04T18:03:25+0200
+// File generated on 2022-10-11T02:12:21+0200
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -59,6 +59,8 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-request-mgmt-itil/model.itop-request
 MetaModel::IncludeModule(MODULESROOT.'/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-service-mgmt/model.itop-service-mgmt.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-virtualization-mgmt/model.itop-virtualization-mgmt.php');
+MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/model.combodo-sla-computation.php');
+MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/main.combodo-sla-computation.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-webhook-integration/vendor/autoload.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-webhook-integration/SendWebRequest.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-webhook-integration/model.combodo-webhook-integration.php');
@@ -233,6 +235,11 @@ return array (
     'root_dir' => $sCurrEnv.'/itop-virtualization-mgmt',
     'version' => '3.0.1',
   ),
+  'combodo-sla-computation' => 
+  array (
+    'root_dir' => $sCurrEnv.'/combodo-sla-computation',
+    'version' => '2.4.0',
+  ),
   'combodo-webhook-integration' => 
   array (
     'root_dir' => $sCurrEnv.'/combodo-webhook-integration',
@@ -252,6 +259,11 @@ return array (
   array (
     'root_dir' => $sCurrEnv.'/itop-full-itil',
     'version' => '3.0.1',
+  ),
+  'combodo-coverage-windows-computation' => 
+  array (
+    'root_dir' => $sCurrEnv.'/combodo-coverage-windows-computation',
+    'version' => '2.0.7',
   ),
 );
 }

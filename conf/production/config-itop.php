@@ -67,14 +67,7 @@ $MySettings = array(
 	//		    'date_time' => '$date $time',
 	//		  ),
 	//		)
-	'date_and_time_format' => array (
-	  'default' => 
-	  array (
-	    'date' => 'Y-m-d',
-	    'time' => 'H:i:s',
-	    'date_time' => '$date $time',
-	  ),
-	),
+	'date_and_time_format' => array('default' => array('date' => 'Y-m-d', 'time' => 'H:i:s', 'date_time' => '$date $time')),
 
 	'db_host' => 'mysql',
 
@@ -98,15 +91,31 @@ $MySettings = array(
 
 	// email_default_sender_address: Default address provided in the email from header field.
 	//	default: ''
-	'email_default_sender_address' => '',
+	'email_default_sender_address' => 'no-reply@qvision.com.co',
 
 	// email_default_sender_label: Default label provided in the email from header field.
 	//	default: ''
-	'email_default_sender_label' => '',
+	'email_default_sender_label' => 'no-reply@qvision.com.co',
 
 	// email_transport: Mean to send emails: PHPMail (uses the function mail()) or SMTP (implements the client protocol)
 	//	default: 'PHPMail'
-	'email_transport' => 'PHPMail',
+	'email_transport' => 'SMTP',
+
+	// email_transport_smtp.host: host name or IP address (optional)
+	//	default: 'localhost'
+	'email_transport_smtp.host' => 'mail.qvision.com.co',
+
+	// email_transport_smtp.password: Authentication password (optional)
+	//	default: ''
+	'email_transport_smtp.password' => 'D9f3vr0?',
+
+	// email_transport_smtp.port: port number (optional)
+	//	default: 25
+	'email_transport_smtp.port' => 25,
+
+	// email_transport_smtp.username: Authentication user (optional)
+	//	default: ''
+	'email_transport_smtp.username' => 'qvimd@qvision.com.co',
 
 	// email_validation_pattern: Regular expression to validate/detect the format of an eMail address
 	//	default: '[a-zA-Z0-9._&\'-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z0-9-]{2,}'
@@ -118,7 +127,7 @@ $MySettings = array(
 
 	'ext_auth_variable' => '$_SERVER[\'REMOTE_USER\']',
 
-	'fast_reload_interval' => 60,
+	'fast_reload_interval' => '60',
 
 	// graphviz_path: Path to the Graphviz "dot" executable for graphing objects lifecycle
 	//	default: '/usr/bin/dot'
@@ -127,8 +136,7 @@ $MySettings = array(
 	// high_cardinality_classes: List of classes with high cardinality (Force manual submit of search)
 	//	default: array (
 	//		)
-	'high_cardinality_classes' => array (
-	),
+	'high_cardinality_classes' => array(),
 
 	// inline_image_max_display_width: The maximum width (in pixels) when displaying images inside an HTML formatted attribute. Images will be displayed using this this maximum width.
 	//	default: '250'
@@ -162,7 +170,7 @@ $MySettings = array(
 
 	'log_web_service' => true,
 
-	'max_display_limit' => 30,
+	'max_display_limit' => '30',
 
 	// max_linkset_output: Maximum number of items shown when getting a list of related items in an email, using the form $this->some_list$. 0 means no limit.
 	//	default: 100
@@ -172,11 +180,9 @@ $MySettings = array(
 	//	default: array (
 	//		  '@' => 'Person',
 	//		)
-	'mentions.allowed_classes' => array (
-	  '@' => 'Person',
-	),
+	'mentions.allowed_classes' => array('@' => 'Person'),
 
-	'min_display_limit' => 20,
+	'min_display_limit' => '20',
 
 	// online_help: Hyperlink to the online-help web page
 	//	default: 'http://www.combodo.com/itop-help'
@@ -210,7 +216,7 @@ $MySettings = array(
 	//	default: ''
 	'source_dir' => 'datamodels/2.x/',
 
-	'standard_reload_interval' => 300,
+	'standard_reload_interval' => '300',
 
 	// synchro_trace: Synchronization details: none, display, save (includes 'display')
 	//	default: 'none'
@@ -222,7 +228,7 @@ $MySettings = array(
 
 	// timezone: Timezone (reference: http://php.net/manual/en/timezones.php). If empty, it will be left unchanged and MUST be explicitly configured in PHP
 	//	default: 'Europe/Paris'
-	'timezone' => 'Europe/Paris',
+	'timezone' => 'America/Bogota',
 
 	// tracking_level_linked_set_default: Default tracking level if not explicitly set at the attribute level, for AttributeLinkedSet (defaults to NONE in case of a fresh install, LIST otherwise - this to preserve backward compatibility while upgrading from a version older than 2.0.3 - see TRAC #936)
 	//	default: 1
@@ -247,18 +253,18 @@ $MyModuleSettings = array(
 		'cas_version' => '',
 	),
 	'authent-ldap' => array (
-		'host' => 'localhost',
-		'port' => 389,
-		'default_user' => '',
-		'default_pwd' => '',
-		'base_dn' => 'dc=yourcompany,dc=com',
-		'user_query' => '(&(uid=%1$s)(inetuserstatus=ACTIVE))',
+		'host' => 'openldap',
+		'port' => 1389,
+		'default_user' => 'cn=user_app,ou=People,dc=qvision,dc=com',
+		'default_pwd' => '0a.rAqkIU8TU',
+		'base_dn' => 'dc=qvision,dc=com',
+		'user_query' => '(&(uid=%1$s))',
 		'options' => array (
 		  17 => 3,
 		  8 => 0,
 		),
 		'start_tls' => false,
-		'debug' => false,
+		'debug' => true,
 		'servers' => array (
 		),
 	),
@@ -278,6 +284,10 @@ $MyModuleSettings = array(
 		'enabled' => true,
 		'itop_backup_incident' => '',
 	),
+	'combodo-sla-computation' => array (
+		'coverage_oql' => 'SELECT CoverageWindow AS cw JOIN lnkCustomerContractToService AS l1 ON l1.coveragewindow_id = cw.id JOIN CustomerContract AS cc ON l1.customercontract_id = cc.id WHERE cc.org_id= :this->org_id AND l1.service_id = :this->service_id',
+		'holidays_oql' => 'SELECT Holiday',
+	),
 );
 
 /**
@@ -286,8 +296,6 @@ $MyModuleSettings = array(
  *
  */
 $MyModules = array(
-	'addons' => array (
-		'user rights' => 'addons/userrights/userrightsprofile.class.inc.php',
-	),
+	'addons' => array('user rights' => 'addons/userrights/userrightsprofile.class.inc.php'),
 );
 ?>
