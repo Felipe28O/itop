@@ -8,7 +8,9 @@
     <!--<logo>../images/itop-logo.png</logo>-->
     <!-- Can be either a fileref or a relative path to the file from /env-xxx (eg. itop-portal-base/mystyle.css) -->
     <!-- Available themes must have a unique id. Some ids are loaded in a specific order : bootstrap/portal/custom. Other ids are loaded after them, but their order cannot be predicted -->
-    <themes/>
+    <themes>
+      <theme id="bootstrap" _altered_in="sample-portal-new-theme">sample-portal-new-theme-develop/css/bootstrap-theme-united.min.css</theme>
+    </themes>
     <!-- Can be either a fileref or a relative path to the file from /env-xxx (eg. itop-portal-base/mytemplate.html.twig) -->
     <!-- Available templates are id="layout|home" -->
     <templates/>

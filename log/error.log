@@ -1,411 +1,119 @@
-2022-10-06 17:45:57 | Info    | 1     | mysqldump -V 2>&1 said: sh: 1: mysqldump: not found | IssueLog |||
-2022-10-06 17:46:03 | Info    | 1     | Creating backup: '/var/www/html/itop/data/backups/manual/itop-2022-10-06_17_46.tar.gz' | IssueLog |||
-2022-10-06 17:46:03 | Info    | 1     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-520714315' | IssueLog |||
-2022-10-06 17:46:03 | Info    | 1     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
-2022-10-06 17:46:03 | Info    | 1     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
-2022-10-06 17:46:03 | Info    | 1     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-xyGDTf" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-520714315/itop-dump.sql' 'itop'  | IssueLog |||
-2022-10-06 17:46:03 | Info    | 1     | mysqldump said: sh: 1: mysqldump: not found | IssueLog |||
-2022-10-06 17:46:03 | Error   | 1     | Failed to execute: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-xyGDTf" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-520714315/itop-dump.sql' 'itop' . The command returned:127 | IssueLog |||
-2022-10-06 17:46:03 | Error   | 1     | mysqldump said: sh: 1: mysqldump: not found | IssueLog |||
-2022-10-06 17:46:03 | Error   | 1     | backup - Failed to execute mysqldump: sh: 1: mysqldump: not found | IssueLog |||
-2022-10-10 19:57:26 | Info    | 1     | mysqldump -V 2>&1 said: sh: 1: mysqldump: not found | IssueLog |||
-2022-10-10 20:01:57 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 8.0.30-0ubuntu0.20.04.2 for Linux on x86_64 ((Ubuntu)) | IssueLog |||
-2022-10-10 20:02:05 | Info    | 1     | Creating backup: '/var/www/html/itop/data/backups/manual/itop-2022-10-10_20_02.tar.gz' | IssueLog |||
-2022-10-10 20:02:05 | Info    | 1     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-2104083539' | IssueLog |||
-2022-10-10 20:02:05 | Info    | 1     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
-2022-10-10 20:02:05 | Info    | 1     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
-2022-10-10 20:02:05 | Info    | 1     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-cygqsb" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-2104083539/itop-dump.sql' 'itop'  | IssueLog |||
-2022-10-10 20:02:05 | Info    | 1     | mysqldump said: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'itop' AND TABLE_NAME = 'applicationsolution';': Unknown table 'COLUMN_STATISTICS' in information_schema (1109) | IssueLog |||
-2022-10-10 20:02:05 | Error   | 1     | Failed to execute: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-cygqsb" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-2104083539/itop-dump.sql' 'itop' . The command returned:2 | IssueLog |||
-2022-10-10 20:02:05 | Error   | 1     | mysqldump said: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'itop' AND TABLE_NAME = 'applicationsolution';': Unknown table 'COLUMN_STATISTICS' in information_schema (1109) | IssueLog |||
-2022-10-10 20:02:05 | Error   | 1     | backup - Failed to execute mysqldump: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'itop' AND TABLE_NAME = 'applicationsolution';': Unknown table 'COLUMN_STATISTICS' in information_schema (1109) | IssueLog |||
-2022-10-10 20:03:00 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 8.0.30-0ubuntu0.20.04.2 for Linux on x86_64 ((Ubuntu)) | IssueLog |||
-2022-10-10 20:03:14 | Info    | 1     | Creating backup: '/var/www/html/itop/data/backups/manual/itop-2022-10-10_20_03.tar.gz' | IssueLog |||
-2022-10-10 20:03:14 | Info    | 1     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-1591190097' | IssueLog |||
-2022-10-10 20:03:14 | Info    | 1     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
-2022-10-10 20:03:14 | Info    | 1     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
-2022-10-10 20:03:14 | Info    | 1     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-wXLYAU" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-1591190097/itop-dump.sql' 'itop'  | IssueLog |||
-2022-10-10 20:03:14 | Info    | 1     | mysqldump said: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'itop' AND TABLE_NAME = 'applicationsolution';': Unknown table 'COLUMN_STATISTICS' in information_schema (1109) | IssueLog |||
-2022-10-10 20:03:14 | Error   | 1     | Failed to execute: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-wXLYAU" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-1591190097/itop-dump.sql' 'itop' . The command returned:2 | IssueLog |||
-2022-10-10 20:03:14 | Error   | 1     | mysqldump said: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'itop' AND TABLE_NAME = 'applicationsolution';': Unknown table 'COLUMN_STATISTICS' in information_schema (1109) | IssueLog |||
-2022-10-10 20:03:14 | Error   | 1     | backup - Failed to execute mysqldump: mysqldump: Couldn't execute 'SELECT COLUMN_NAME,                       JSON_EXTRACT(HISTOGRAM, '$."number-of-buckets-specified"')                FROM information_schema.COLUMN_STATISTICS                WHERE SCHEMA_NAME = 'itop' AND TABLE_NAME = 'applicationsolution';': Unknown table 'COLUMN_STATISTICS' in information_schema (1109) | IssueLog |||
-2022-10-10 20:16:02 | Info    | 1     | mysqldump -V 2>&1 said: sh: 1: mysqldump: not found | IssueLog |||
-2022-10-10 20:22:34 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-10 20:22:37 | Info    | 1     | Creating backup: '/var/www/html/itop/data/backups/manual/itop-2022-10-10_20_22.tar.gz' | IssueLog |||
-2022-10-10 20:22:37 | Info    | 1     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-1549487786' | IssueLog |||
-2022-10-10 20:22:37 | Info    | 1     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
-2022-10-10 20:22:37 | Info    | 1     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
-2022-10-10 20:22:37 | Info    | 1     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-tBWJw3" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-1549487786/itop-dump.sql' 'itop'  | IssueLog |||
-2022-10-10 20:22:38 | Info    | 1     | backup: adding to archive files 'array (
-  0 => '/var/www/html/itop/data/tmp-backup-1549487786/config-itop.php',
-  1 => '/var/www/html/itop/data/tmp-backup-1549487786/itop-dump.sql',
-)' | IssueLog |||
-2022-10-10 20:22:38 | Info    | 1     | backup: removing tmp folder '/var/www/html/itop/data/tmp-backup-1549487786' | IssueLog |||
-2022-10-10 20:22:38 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-10 20:31:23 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-10 20:31:28 | Info    |       | Backup Restore - Acquiring the LOCK 'restore.production' | IssueLog |||
-2022-10-10 20:31:28 | Info    |       | Backup Restore - LOCK acquired, executing... | IssueLog |||
-2022-10-10 20:31:40 | Info    |       | Backup Restore - LOCK released. | IssueLog |||
-2022-10-10 20:31:40 | Info    |       | Backup Restore - Done, releasing the LOCK | IssueLog |||
-2022-10-11 02:11:16 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-11 02:11:50 | Info    | 1     | Creating backup: '/var/www/html/itop/data/backups/manual/itop-2022-10-11_02_11.tar.gz' | IssueLog |||
-2022-10-11 02:11:50 | Info    | 1     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-923773391' | IssueLog |||
-2022-10-11 02:11:50 | Info    | 1     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
-2022-10-11 02:11:50 | Info    | 1     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
-2022-10-11 02:11:50 | Info    | 1     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-mgP9OU" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-923773391/itop-dump.sql' 'itop'  | IssueLog |||
-2022-10-11 02:11:50 | Info    | 1     | backup: adding to archive files 'array (
-  0 => '/var/www/html/itop/data/tmp-backup-923773391/config-itop.php',
-  1 => '/var/www/html/itop/data/tmp-backup-923773391/itop-dump.sql',
-)' | IssueLog |||
-2022-10-11 02:11:51 | Info    | 1     | backup: removing tmp folder '/var/www/html/itop/data/tmp-backup-923773391' | IssueLog |||
-2022-10-11 02:11:51 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-11 02:12:10 | Info    |       | Backup Restore - Acquiring the LOCK 'restore.production' | IssueLog |||
-2022-10-11 02:12:10 | Info    |       | Backup Restore - LOCK acquired, executing... | IssueLog |||
-2022-10-11 02:12:21 | Info    |       | Backup Restore - LOCK released. | IssueLog |||
-2022-10-11 02:12:21 | Info    |       | Backup Restore - Done, releasing the LOCK | IssueLog |||
-2022-10-11 02:12:46 | Error   |       | ajax.backup.php operation=restore_exec ERROR = inexisting token 0.040746001665447130admin-Oq4b25 | IssueLog |||
-2022-10-11 02:12:50 | Error   |       | ajax.backup.php operation=restore_exec ERROR = inexisting token 0.040746001665447130admin-Oq4b25 | IssueLog |||
-2022-10-11 17:37:37 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-11 17:37:43 | Info    | 1     | Creating backup: '/var/www/html/itop/data/backups/manual/itop-2022-10-11_17_37.tar.gz' | IssueLog |||
-2022-10-11 17:37:43 | Info    | 1     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-1419399785' | IssueLog |||
-2022-10-11 17:37:43 | Info    | 1     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
-2022-10-11 17:37:43 | Info    | 1     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
-2022-10-11 17:37:43 | Info    | 1     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-uGCxbT" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-1419399785/itop-dump.sql' 'itop'  | IssueLog |||
-2022-10-11 17:37:44 | Info    | 1     | backup: adding to archive files 'array (
-  0 => '/var/www/html/itop/data/tmp-backup-1419399785/config-itop.php',
-  1 => '/var/www/html/itop/data/tmp-backup-1419399785/itop-dump.sql',
-)' | IssueLog |||
-2022-10-11 17:37:44 | Info    | 1     | backup: removing tmp folder '/var/www/html/itop/data/tmp-backup-1419399785' | IssueLog |||
-2022-10-11 17:37:44 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-11 17:39:09 | Error   | 1     | Missing query argument: expecting = this-&gt;agent_id, available = {}
-#0 /var/www/html/itop/core/oql/expression.class.inc.php(548): VariableExpression->RenderExpression()
-#1 /var/www/html/itop/core/oql/expression.class.inc.php(547): BinaryExpression->RenderExpression()
-#2 /var/www/html/itop/core/oql/expression.class.inc.php(547): BinaryExpression->RenderExpression()
-#3 /var/www/html/itop/core/sqlquery.class.inc.php(180): BinaryExpression->RenderExpression()
-#4 /var/www/html/itop/core/sqlobjectquery.class.inc.php(374): SQLQuery::ClauseWhere()
-#5 /var/www/html/itop/core/dbsearch.class.php(1126): SQLObjectQuery->RenderSelect()
-#6 /var/www/html/itop/core/dbobjectset.class.php(849): DBSearch->MakeSelectQuery()
-#7 /var/www/html/itop/core/tabularbulkexport.class.inc.php(274): DBObjectSet->Count()
-#8 /var/www/html/itop/core/htmlbulkexport.class.inc.php(49): TabularBulkExport->GetInteractiveFieldsWidget()
-#9 /var/www/html/itop/webservices/export-v2.php(318): HTMLBulkExport->GetFormPart()
-#10 /var/www/html/itop/webservices/export-v2.php(426): DisplayForm()
-#11 /var/www/html/itop/webservices/export-v2.php(689): InteractiveShell()
-#12 {main} | IssueLog |||
-2022-10-12 18:37:01 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='admin', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-12 18:37:12 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='admin', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-12 18:47:03 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-12 18:47:03 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-12 18:47:03 | Error   |       | ldap_authentication: no entry found with the query '(&(uid=gbarba)(inetuserstatus=ACTIVE))', base_dn = 'dc=example,dc=org'. User not found in LDAP. | IssueLog |||
-2022-10-12 18:54:10 | Error   |       | ldap_authentication: bad LDAP server configuration: 'openldap' not found | IssueLog |||
-2022-10-12 18:54:28 | Error   |       | ldap_authentication: bad LDAP server configuration: 'openldap' not found | IssueLog |||
-2022-10-12 18:54:33 | Error   |       | ldap_authentication: bad LDAP server configuration: 'openldap' not found | IssueLog |||
-2022-10-12 18:54:56 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-12 18:54:56 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-12 18:54:56 | Error   |       | ldap_authentication: no entry found with the query '(&(uid=eobando)(inetuserstatus=ACTIVE))', base_dn = 'dc=example,dc=org'. User not found in LDAP. | IssueLog |||
-2022-10-12 18:58:38 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-12 18:58:38 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-12 18:59:05 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-12 18:59:05 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-12 19:03:47 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-12 19:03:47 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-12 19:03:47 | Error   |       | ldap_authentication: wrong password for user: 'uid=eobando,ou=People,dc=example,dc=org'. | IssueLog |||
-2022-10-12 19:03:53 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-12 19:03:53 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-12 19:03:53 | Error   |       | ldap_authentication: wrong password for user: 'uid=eobando,ou=People,dc=example,dc=org'. | IssueLog |||
-2022-10-12 19:04:01 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-12 19:04:01 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-12 19:04:01 | Error   |       | ldap_authentication: wrong password for user: 'uid=eobando,ou=People,dc=example,dc=org'. | IssueLog |||
-2022-10-12 19:04:26 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-12 19:04:26 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-13 18:13:43 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-13 18:13:43 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-13 18:16:32 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-13 18:16:32 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-13 21:46:24 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-13 21:46:24 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 15:58:01 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 15:58:01 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 17:21:35 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 17:21:35 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 17:21:47 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 17:21:47 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 17:21:47 | Error   |       | ldap_authentication: wrong password for user: 'cn=Gabriel Barba,ou=People,dc=example,dc=org'. | IssueLog |||
-2022-10-14 17:21:52 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 17:21:52 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 17:31:17 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 17:31:17 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 18:43:35 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 18:43:35 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 18:50:52 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 18:50:52 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 21:05:27 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 21:05:27 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 21:06:05 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 21:06:05 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 21:06:05 | Error   |       | ldap_authentication: wrong password for user: 'cn=Gabriel Barba,ou=People,dc=example,dc=org'. | IssueLog |||
-2022-10-14 21:06:09 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 21:06:09 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 21:14:21 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 21:14:21 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 21:17:47 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 21:17:47 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 21:39:26 | Error   | 5     | Unexpected value for attribute 'service_id': Null not allowed: issues = {0=>Unexpected value for attribute 'service_id': Null not allowed}, class = lnkCustomerContractToService, id =  | IssueLog |||
-2022-10-14 21:51:51 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 21:51:51 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 22:18:31 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 22:18:31 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-14 23:26:33 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-14 23:26:33 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 15:43:52 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 15:43:52 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 15:43:52 | Error   |       | ldap_authentication: wrong password for user: 'cn=Gabriel Barba,ou=People,dc=example,dc=org'. | IssueLog |||
-2022-10-18 15:43:56 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 15:43:56 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 15:43:56 | Error   |       | ldap_authentication: wrong password for user: 'cn=Gabriel Barba,ou=People,dc=example,dc=org'. | IssueLog |||
-2022-10-18 15:44:08 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 15:44:08 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 15:44:14 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 15:44:14 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 16:20:09 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 16:20:09 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 17:20:13 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 17:20:13 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 18:19:22 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 18:19:22 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 18:30:18 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 18:30:18 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 22:16:26 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 22:16:26 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 22:36:02 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 22:36:02 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 22:43:12 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 22:43:12 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 22:43:39 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 22:43:39 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-18 22:51:46 | Info    | 6     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-18 22:52:21 | Info    | 6     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-18 22:52:26 | Info    | 6     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-18 22:55:34 | Info    | 6     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-18 23:39:42 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-18 23:39:42 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 00:40:52 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 00:40:52 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 00:41:30 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 00:41:30 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 15:54:12 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 15:54:12 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 17:34:47 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 17:34:47 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 18:22:48 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 18:22:48 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 18:30:10 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 18:30:10 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 19:30:19 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 19:30:19 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 21:43:55 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 21:43:55 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 21:50:32 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 21:50:32 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:17:00 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:17:00 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:17:00 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 22:17:04 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:17:04 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:17:04 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 22:17:10 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:17:10 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:17:10 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 22:17:14 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:17:14 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:17:15 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 22:17:22 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:17:22 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:17:22 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 22:17:32 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:17:32 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:17:32 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 22:17:41 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:17:41 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:17:41 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 22:17:55 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:17:55 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:17:55 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 22:18:21 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:18:21 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:18:21 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 22:18:46 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 22:18:46 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 22:18:46 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=admin,dc=example,dc=org', pwd='****'. Error: 'Invalid credentials'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 15:37:10 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 15:37:10 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 15:54:09 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 15:54:09 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 15:54:09 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=app,dc=qvision,dc=com', pwd='****'. Error: 'Invalid credentials'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 15:54:20 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 15:54:20 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 15:54:20 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=app,dc=qvision,dc=com', pwd='****'. Error: 'Invalid credentials'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 15:56:05 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 15:56:05 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 15:58:23 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 15:58:23 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 15:59:37 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 15:59:37 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:02:38 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:02:38 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:02:38 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='bind', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:02:45 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:02:45 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:02:45 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='bind', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:03:17 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:03:17 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:03:17 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='bind', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:03:54 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:03:54 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:03:54 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='bind', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:05:36 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:05:36 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:05:36 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='bind', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:06:34 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:06:34 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:06:34 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='bind', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:07:08 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:07:08 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:07:08 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='bind', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:07:14 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:07:14 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:07:14 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='bind', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:15:47 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:15:47 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:15:47 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='user_app', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:16:30 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:16:30 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:18:27 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:18:27 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:18:27 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=user_app,dc=qvision,dc=com', pwd='****'. Error: 'Invalid credentials'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:18:33 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:18:33 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:18:33 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=user_app,dc=qvision,dc=com', pwd='****'. Error: 'Invalid credentials'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:18:56 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:18:56 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:18:56 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='user_app', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:24:27 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:24:27 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:24:27 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='user_app', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:24:51 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:24:51 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:24:51 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='user_app', pwd='****'. Error: 'Invalid DN syntax'. Check the configuration file config-itop.php. | IssueLog |||
-2022-10-19 16:25:33 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:25:33 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:28:28 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:28:28 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:31:41 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:31:41 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:32:03 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:32:03 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:35:46 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:35:46 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:35:46 | Error   |       | ldap_authentication: wrong password for user: 'cn=Edgar Obando,ou=People,dc=qvision,dc=com'. | IssueLog |||
-2022-10-19 16:35:50 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:35:50 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:35:50 | Error   |       | ldap_authentication: wrong password for user: 'cn=Edgar Obando,ou=People,dc=qvision,dc=com'. | IssueLog |||
-2022-10-19 16:36:01 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:36:01 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:36:01 | Error   |       | ldap_authentication: wrong password for user: 'cn=Edgar Obando,ou=People,dc=qvision,dc=com'. | IssueLog |||
-2022-10-19 16:36:35 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:36:35 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:36:35 | Error   |       | ldap_authentication: wrong password for user: 'cn=Edgar Obando,ou=People,dc=qvision,dc=com'. | IssueLog |||
-2022-10-19 16:36:48 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:36:48 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:37:14 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:37:14 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:37:47 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:37:47 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:37:47 | Error   |       | ldap_authentication: wrong password for user: 'cn=Edgar Obando,ou=People,dc=qvision,dc=com'. | IssueLog |||
-2022-10-19 16:38:20 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-19 16:38:20 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-19 16:58:27 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-19 17:00:05 | Info    | 1     | Creating backup: '/var/www/html/itop/data/backups/manual/itop-2022-10-19_17_00.tar.gz' | IssueLog |||
-2022-10-19 17:00:05 | Info    | 1     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-1116528377' | IssueLog |||
-2022-10-19 17:00:05 | Info    | 1     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
-2022-10-19 17:00:05 | Info    | 1     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
-2022-10-19 17:00:05 | Info    | 1     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-zZOtye" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-1116528377/itop-dump.sql' 'itop'  | IssueLog |||
-2022-10-19 17:00:05 | Info    | 1     | backup: adding to archive files 'array (
-  0 => '/var/www/html/itop/data/tmp-backup-1116528377/config-itop.php',
-  1 => '/var/www/html/itop/data/tmp-backup-1116528377/itop-dump.sql',
-)' | IssueLog |||
-2022-10-19 17:00:05 | Info    | 1     | backup: removing tmp folder '/var/www/html/itop/data/tmp-backup-1116528377' | IssueLog |||
-2022-10-19 17:00:05 | Info    | 1     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-20 08:10:48 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 08:10:48 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 09:30:44 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 09:30:44 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 09:45:55 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 09:45:55 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 09:45:55 | Error   |       | ldap_authentication: no entry found with the query '(&(uid=gpruebas))', base_dn = 'dc=qvision,dc=com'. User not found in LDAP. | IssueLog |||
-2022-10-20 09:46:06 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 09:46:06 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 09:46:06 | Error   |       | ldap_authentication: no entry found with the query '(&(uid=gpruebas))', base_dn = 'dc=qvision,dc=com'. User not found in LDAP. | IssueLog |||
-2022-10-20 09:46:31 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 09:46:31 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 09:46:31 | Error   |       | ldap_authentication: no entry found with the query '(&(uid=gpruebas))', base_dn = 'dc=qvision,dc=com'. User not found in LDAP. | IssueLog |||
-2022-10-20 09:46:32 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 09:46:32 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 09:46:32 | Error   |       | ldap_authentication: no entry found with the query '(&(uid=gpruebas))', base_dn = 'dc=qvision,dc=com'. User not found in LDAP. | IssueLog |||
-2022-10-20 09:49:06 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 09:49:06 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 09:49:06 | Error   |       | ldap_authentication: no entry found with the query '(&(uid=gpruebas))', base_dn = 'dc=qvision,dc=com'. User not found in LDAP. | IssueLog |||
-2022-10-20 09:49:07 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 09:49:07 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 09:49:07 | Error   |       | ldap_authentication: no entry found with the query '(&(uid=gpruebas))', base_dn = 'dc=qvision,dc=com'. User not found in LDAP. | IssueLog |||
-2022-10-20 09:54:27 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 09:54:27 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 09:55:16 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 09:55:16 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 10:42:08 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 10:42:08 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 11:24:07 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 11:24:07 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 14:16:59 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 14:16:59 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 14:16:59 | Error   |       | ldap_authentication: wrong password for user: 'cn=Edgar Obando,ou=People,dc=qvision,dc=com'. | IssueLog |||
-2022-10-20 14:17:17 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 14:17:17 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 14:18:51 | Info    | 6     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-20 14:19:06 | Info    | 6     | Creating backup: '/var/www/html/itop/data/backups/manual/itop-2022-10-20_14_19.tar.gz' | IssueLog |||
-2022-10-20 14:19:06 | Info    | 6     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-1619933034' | IssueLog |||
-2022-10-20 14:19:06 | Info    | 6     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
-2022-10-20 14:19:06 | Info    | 6     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
-2022-10-20 14:19:06 | Info    | 6     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-VnwQOJ" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-1619933034/itop-dump.sql' 'itop'  | IssueLog |||
-2022-10-20 14:19:06 | Info    | 6     | backup: adding to archive files 'array (
-  0 => '/var/www/html/itop/data/tmp-backup-1619933034/config-itop.php',
-  1 => '/var/www/html/itop/data/tmp-backup-1619933034/itop-dump.sql',
-)' | IssueLog |||
-2022-10-20 14:19:06 | Info    | 6     | backup: removing tmp folder '/var/www/html/itop/data/tmp-backup-1619933034' | IssueLog |||
-2022-10-20 14:19:07 | Info    | 6     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-20 14:34:32 | Info    | 6     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-20 16:20:14 | Info    | 5     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-20 16:31:32 | Info    | 5     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-20 16:32:18 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-20 16:32:18 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-20 16:32:22 | Info    | 6     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-20 23:30:00 | Info    | 1     | Creating backup: '/var/www/html/itop/data/backups/auto/itop-2022-10-20_23_30.tar.gz' | IssueLog |||
-2022-10-20 23:30:00 | Info    | 1     | backup: creating tmp dir '/var/www/html/itop/data/tmp-backup-971585910' | IssueLog |||
-2022-10-20 23:30:00 | Info    | 1     | backup: adding resource '/var/www/html/itop/conf/production/config-itop.php' | IssueLog |||
-2022-10-20 23:30:00 | Info    | 1     | Starting backup of mysql/itop(suffix:'') | IssueLog |||
-2022-10-20 23:30:00 | Info    | 1     | backup: generate data file with command: mysqldump --defaults-extra-file="/tmp/itop-mysqldump-pq1C8p" --opt --skip-lock-tables --default-character-set=utf8mb4 --add-drop-database --single-transaction --host='mysql'  --port='3306' --user=xxxxx  --result-file='/var/www/html/itop/data/tmp-backup-971585910/itop-dump.sql' 'itop'  | IssueLog |||
-2022-10-20 23:30:01 | Info    | 1     | backup: adding to archive files 'array (
-  0 => '/var/www/html/itop/data/tmp-backup-971585910/config-itop.php',
-  1 => '/var/www/html/itop/data/tmp-backup-971585910/itop-dump.sql',
-)' | IssueLog |||
-2022-10-20 23:30:01 | Info    | 1     | backup: removing tmp folder '/var/www/html/itop/data/tmp-backup-971585910' | IssueLog |||
-2022-10-21 08:31:58 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-21 08:31:58 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-21 08:32:37 | Info    | 5     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-21 08:37:14 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-21 08:37:14 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-21 08:37:17 | Info    | 6     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
-2022-10-21 10:04:29 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-21 10:04:29 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-21 10:08:10 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
-2022-10-21 10:08:10 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
-2022-10-21 10:21:15 | Info    | 5     | mysqldump -V 2>&1 said: mysqldump  Ver 10.19 Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64) | IssueLog |||
+2022-11-01 08:40:35 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-01 08:40:35 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-01 09:18:26 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-01 09:18:26 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-01 15:02:57 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-01 15:02:57 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-01 17:30:25 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-01 17:30:25 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-01 17:32:11 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-01 17:32:11 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-02 08:55:51 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-02 08:55:51 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-02 10:32:12 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-02 10:32:12 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-02 14:55:17 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-02 14:55:17 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-02 15:01:02 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-02 15:01:02 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-02 15:03:56 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-02 15:03:56 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 09:55:15 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 09:55:15 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 09:55:26 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 09:55:26 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 10:48:50 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 10:48:50 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 14:10:17 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 14:10:17 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 15:05:50 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 15:05:50 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 15:20:15 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 15:20:15 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 16:14:02 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 16:14:02 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 16:25:15 | Warning | 5     | Email sending failed: Some recipients were invalid, aFailedRecipients contains:  | IssueLog |||
+2022-11-03 17:15:01 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 17:15:01 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 20:12:47 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 20:12:47 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-03 20:23:30 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-03 20:23:30 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-04 08:39:56 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-04 08:39:56 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-04 09:07:53 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-04 09:07:53 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-04 09:27:01 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-04 09:27:01 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-04 10:19:06 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-04 10:19:06 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-04 10:19:06 | Error   |       | ldap_authentication: wrong password for user: 'cn=Anggelo Moncada,ou=People,dc=qvision,dc=com'. | IssueLog |||
+2022-11-04 10:19:15 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-04 10:19:15 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-04 10:19:15 | Error   |       | ldap_authentication: wrong password for user: 'cn=Anggelo Moncada,ou=People,dc=qvision,dc=com'. | IssueLog |||
+2022-11-04 10:19:27 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-04 10:19:27 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-04 11:37:06 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-04 11:37:06 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-04 14:23:34 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-04 14:23:34 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-06 18:33:50 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-06 18:33:50 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 09:16:21 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 09:16:21 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 09:52:42 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 09:52:42 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 09:53:53 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 09:53:53 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 13:18:15 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 13:18:15 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 13:18:15 | Error   |       | ldap_authentication: wrong password for user: 'cn=Anggelo Moncada,ou=People,dc=qvision,dc=com'. | IssueLog |||
+2022-11-08 13:18:22 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 13:18:22 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 13:18:22 | Error   |       | ldap_authentication: wrong password for user: 'cn=Anggelo Moncada,ou=People,dc=qvision,dc=com'. | IssueLog |||
+2022-11-08 13:18:27 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 13:18:27 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 13:18:27 | Error   |       | ldap_authentication: wrong password for user: 'cn=Anggelo Moncada,ou=People,dc=qvision,dc=com'. | IssueLog |||
+2022-11-08 13:18:28 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 13:18:28 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 13:18:28 | Error   |       | ldap_authentication: wrong password for user: 'cn=Anggelo Moncada,ou=People,dc=qvision,dc=com'. | IssueLog |||
+2022-11-08 13:19:08 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 13:19:08 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 14:11:15 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 14:11:15 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-08 16:50:09 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-08 16:50:09 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-09 08:46:57 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-09 08:46:57 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-09 08:54:23 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-09 08:54:23 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-09 09:31:27 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-09 09:31:27 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-09 09:32:32 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-09 09:32:32 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-09 10:38:46 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-09 10:38:46 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-09 10:52:10 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-09 10:52:10 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-09 15:30:27 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-09 15:30:27 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-09 15:30:57 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-09 15:30:57 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-10 08:27:19 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-10 08:27:19 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-10 08:39:57 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-10 08:39:57 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-10 08:44:16 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-10 08:44:16 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-10 08:51:15 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-10 08:51:15 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-10 08:51:53 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-10 08:51:53 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-10 08:59:13 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-10 08:59:13 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-10 09:19:09 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-10 09:19:09 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-10 09:41:07 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-10 09:41:07 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-11-10 09:52:37 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-11-10 09:52:37 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||

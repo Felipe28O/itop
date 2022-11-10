@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2022-10-11T02:12:21+0200
+// File generated on 2022-11-10T09:58:00-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -36,6 +36,8 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-themes-compat/model.itop-themes-comp
 MetaModel::IncludeModule(MODULESROOT.'/itop-tickets/main.itop-tickets.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-tickets/model.itop-tickets.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-welcome-itil/model.itop-welcome-itil.php');
+MetaModel::IncludeModule(MODULESROOT.'/sample-login-custom-css/model.sample-login-custom-css.php');
+MetaModel::IncludeModule(MODULESROOT.'/sample-login-custom-css/main.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-db-tools/model.combodo-db-tools.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-db-tools/src/Service/DBToolsUtils.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-db-tools/src/Service/DBAnalyzerUtils.php');
@@ -169,6 +171,21 @@ return array (
   array (
     'root_dir' => $sCurrEnv.'/itop-welcome-itil',
     'version' => '3.0.1',
+  ),
+  'sample-itop-logos' => 
+  array (
+    'root_dir' => $sCurrEnv.'/sample-itop-logos',
+    'version' => '0.1.0',
+  ),
+  'sample-login-custom-css' => 
+  array (
+    'root_dir' => $sCurrEnv.'/sample-login-custom-css',
+    'version' => '0.1.0',
+  ),
+  'sample-portal-new-theme' => 
+  array (
+    'root_dir' => $sCurrEnv.'/sample-portal-new-theme-develop',
+    'version' => '1.1.0',
   ),
   'combodo-db-tools' => 
   array (

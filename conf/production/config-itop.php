@@ -91,11 +91,11 @@ $MySettings = array(
 
 	// email_default_sender_address: Default address provided in the email from header field.
 	//	default: ''
-	'email_default_sender_address' => 'no-reply@qvision.com.co',
+	'email_default_sender_address' => 'devops.app@qvision.com.co',
 
 	// email_default_sender_label: Default label provided in the email from header field.
 	//	default: ''
-	'email_default_sender_label' => 'no-reply@qvision.com.co',
+	'email_default_sender_label' => 'devops.app@qvision.com.co',
 
 	// email_transport: Mean to send emails: PHPMail (uses the function mail()) or SMTP (implements the client protocol)
 	//	default: 'PHPMail'
