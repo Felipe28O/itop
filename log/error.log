@@ -117,3 +117,38 @@
 2022-11-10 09:41:07 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
 2022-11-10 09:52:37 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
 2022-11-10 09:52:37 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-12-07 14:27:52 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = getenv('DB_HOST') !== false ? getenv('DB_HOST') , user = getenv('DB_USER') !== false ? getenv('DB_USER') : 'gbarba'), mysql_errno = 2002, mysql_error = php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-07 14:29:37 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = getenv("DB_HOST") !== false ? getenv("DB_HOST") , user = getenv('DB_USER') !== false ? getenv('DB_USER') : 'gbarba'), mysql_errno = 2002, mysql_error = php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-07 14:44:44 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = $db_host, user = $db_pwd, mysql_errno = 2002, mysql_error = php_network_getaddresses: getaddrinfo failed: Name or service not known in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-07 14:45:00 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.43.246, user = $db_pwd, mysql_errno = 1045, mysql_error = Access denied for user '$db_pwd'@'QV-4640' (using password: YES) in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-07 14:45:33 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.43.246, user = 6459468, mysql_errno = 1045, mysql_error = Access denied for user '6459468'@'QV-4640' (using password: YES) in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
