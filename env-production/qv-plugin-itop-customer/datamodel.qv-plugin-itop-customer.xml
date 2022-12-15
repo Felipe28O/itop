@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.6">
+  <classes>
+    <class id="qv_customer" _delta="define">
+            <parent>Contact</parent>
+            <properties>
+                <category>bizmodel,searchable</category>
+                <abstract>false</abstract>
+                <key_type>autoincrement</key_type>
+                <db_table>qv_customer</db_table>
+                <db_key_field>client_nit</db_key_field>
+                <db_final_class_field/>
+                <display_template/>
+                <icon>../../images/users2-big.png</icon>
+                <reconciliation>
+					<attributes>
+						<attribute id="name"/>
+                        <attribute id="org_id"/>
+					</attributes>
+                </reconciliation>
+				<naming>
+					<attributes>
+						<attribute id="name"/>
+					</attributes>
+				</naming>
+            </properties>
+			
+            <fields>
+               
+                <field id="qv_customer_contact_name" xsi:type="AttributeString" _delta="define">
+                    <sql>client_contact_name</sql>
+                    <default_value/>
+                    <is_null_allowed>false</is_null_allowed>
+                </field>
+            </fields>
+            <methods/>   
+    <presentation>
+        <details>
+            <items>
+                <item id="name">
+                    <rank> 30 </rank>
+                </item>
+                <item id="qv_customer_contact_name">
+                    <rank> 40 </rank>
+                </item>
+                <item id="org_id">
+                    <rank> 50
+                    </rank>
+                </item>
+            </items>
+        </details>
+        <search>
+            <items>
+                <item id="name">
+                    <rank> 30 </rank>
+                </item>
+                <item id="org_id">
+                    <rank> 50
+                    </rank>
+                </item>
+            </items>
+        </search>
+        <list>
+            <items>
+                
+				 <item id="name">
+                    <rank> 30 </rank>
+                </item>
+           
+                <item id="org_id">
+                    <rank> 50
+                    </rank>
+                </item>
+            </items>
+        </list>
+    </presentation>
+	</class>
+  </classes>
+  <menus>
+  
+        <menu id="Contact" xsi:type="DashboardMenuNode" _delta="must_exist">
+            <definition>
+              <cells>
+                <cell id="0" _delta="must_exist">
+                  <dashlets>
+                    <dashlet id="4" xsi:type="DashletBadge" _delta="define">
+                      <rank>4</rank>
+                      <class>qv_customer</class>
+                    </dashlet>
+                  </dashlets>
+                </cell>
+              </cells>
+            </definition>
+          </menu>
+    
+  </menus>
+</itop_design>

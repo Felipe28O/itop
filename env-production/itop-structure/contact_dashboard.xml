@@ -25,6 +25,10 @@
           <rank>3</rank>
           <class>Person</class>
         </dashlet>
+        <dashlet id="4" xsi:type="DashletBadge" _altered_in="qv-plugin-itop-customer">
+          <rank>4</rank>
+          <class>qv_customer</class>
+        </dashlet>
       </dashlets>
     </cell>
   </cells>

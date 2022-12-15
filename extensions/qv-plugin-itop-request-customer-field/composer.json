@@ -1,0 +1,16 @@
+{
+  "config": {
+    "classmap-authoritative": true
+  },
+  "autoload": {
+    "psr-4": {
+      "qvision\\iTop\\Extension\\": "src"
+    }
+  },
+  "name": "qvision/qv-plugin-itop-request-customer-field",
+  "type": "itop-extension",
+  "description": "QVision Customers SELECT",
+  "require": {
+    "composer-runtime-api": "^2.0"
+  }
+}
