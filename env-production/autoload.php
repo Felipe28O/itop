@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2022-11-10T09:58:00-0500
+// File generated on 2022-12-14T19:25:56-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -61,6 +61,10 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-request-mgmt-itil/model.itop-request
 MetaModel::IncludeModule(MODULESROOT.'/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-service-mgmt/model.itop-service-mgmt.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-virtualization-mgmt/model.itop-virtualization-mgmt.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-customer/vendor/autoload.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-customer/model.qv-plugin-itop-customer.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-request-customer-field/vendor/autoload.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-request-customer-field/model.qv-plugin-itop-request-customer-field.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/model.combodo-sla-computation.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/main.combodo-sla-computation.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-webhook-integration/vendor/autoload.php');
@@ -251,6 +255,16 @@ return array (
   array (
     'root_dir' => $sCurrEnv.'/itop-virtualization-mgmt',
     'version' => '3.0.1',
+  ),
+  'qv-plugin-itop-customer' => 
+  array (
+    'root_dir' => $sCurrEnv.'/qv-plugin-itop-customer',
+    'version' => '1.0.0',
+  ),
+  'qv-plugin-itop-request-customer-field' => 
+  array (
+    'root_dir' => $sCurrEnv.'/qv-plugin-itop-request-customer-field',
+    'version' => '1.0.0',
   ),
   'combodo-sla-computation' => 
   array (

@@ -152,3 +152,6 @@ array (
   'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
   'line' => 185,
 )
+2022-12-14 17:18:25 | Error   | 1     | Error: Unknown attribute qv_client_contact_name from class qv_customer. | IssueLog |||
+2022-12-14 17:19:10 | Error   | 1     | Error: Unknown attribute qv_client_contact_name from class qv_customer. | IssueLog |||
+2022-12-14 17:22:33 | Error   | 1     | Error: Unknown attribute qv_client_contact_name from class qv_customer. | IssueLog |||
