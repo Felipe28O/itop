@@ -36,6 +36,7 @@ data/**
 
 # all logs but listing prevention
 log/
+*.log
 
 
 # PHPUnit cache file
