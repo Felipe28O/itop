@@ -35,7 +35,7 @@ data/**
 #!extensions/readme.txt
 
 # all logs but listing prevention
-/log/*
+
 
 
 
