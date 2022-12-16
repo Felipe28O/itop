@@ -7,6 +7,14 @@
  * The file is used in MetaModel::LoadConfig() which does all the necessary initialization job
  *
  */
+
+$APP_URL = getenv('APP_URL') !== false ? getenv('APP_URL') : 'http://localhost:3000/itop/';
+$DB_HOST = getenv('DB_HOST') !== false ? getenv('DB_HOST') : '192.168.43.246';
+$DB_NAME = getenv('DB_NAME') !== false ? getenv('DB_NAME') : 'itop';
+$DB_PWD = getenv('DB_PWD') !== false ? getenv('DB_PWD') : '6459468';
+$DB_USER = getenv('DB_USER') !== false ? getenv('DB_USER') : 'gbarba';
+
+
 $MySettings = array(
 
 	// access_message: Message displayed to the users when there is any access restriction
@@ -37,7 +45,7 @@ $MySettings = array(
 
 	// app_root_url: Root URL used for navigating within the application, or from an email to the application (you can put $SERVER_NAME$ as a placeholder for the server's name)
 	//	default: ''
-	'app_root_url' => 'http://localhost:3000/itop/',
+	'app_root_url' => $APP_URL,
 
 	// behind_reverse_proxy: If true, then proxies custom header (X-Forwarded-*) are taken into account. Use only if the webserver is not publicly accessible (reachable only by the reverse proxy)
 	//	default: false
@@ -69,15 +77,15 @@ $MySettings = array(
 	//		)
 	'date_and_time_format' => array('default' => array('date' => 'Y-m-d', 'time' => 'H:i:s', 'date_time' => '$date $time')),
 
-	'db_host' => '192.168.100.4',
+	'db_host' => $DB_HOST,
 
-	'db_name' => 'itop_prod',
+	'db_name' => $DB_NAME,
 
-	'db_pwd' => 'admin',
+	'db_pwd' => $DB_PWD,
 
 	'db_subname' => '',
 
-	'db_user' => 'itop',
+	'db_user' => $DB_USER,
 
 	// deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
 	//	default: '$difference$'
