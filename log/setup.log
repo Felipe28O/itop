@@ -1422,3 +1422,5 @@ Executing query: UPDATE `ticket` JOIN `change` ON `change`.id = `ticket`.id SET 
 2022-12-14 19:28:08 | Info    |       | operation 'async_action', peak memory usage. 15306992 | SetupLog |||
 2022-12-14 19:28:13 | Info    |       | MetaModel::Startup from /var/www/html/itop/conf/production/config-itop.php (ModelOnly = 1) | SetupLog |||
 2022-12-15 11:25:22 | Error   |       | <b>Error:</b> the configuration file 'conf/production/config-itop.php' already exists and cannot be overwritten. | SetupLog |||
+2022-12-15 14:35:24 | Error   |       | <b>Error:</b> the configuration file 'conf/production/config-itop.php' already exists and cannot be overwritten. | SetupLog |||
+2022-12-15 14:45:27 | Error   |       | <b>Error:</b> the configuration file 'conf/production/config-itop.php' already exists and cannot be overwritten. | SetupLog |||

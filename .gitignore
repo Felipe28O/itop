@@ -35,10 +35,8 @@ data/**
 #!extensions/readme.txt
 
 # all logs but listing prevention
-log/**
-!log/.htaccess
-!log/index.php
-!log/web.config
+log/
+
 
 # PHPUnit cache file
 test/.phpunit.result.cache
