@@ -3,15 +3,17 @@
   <constants>
   </constants>
   <classes>
-	<class id="UserRequest" _delta="if_exists">
+	<class id="Ticket" _delta="if_exists">
       <fields>
-        <field id="cliente" xsi:type="AttributeExternalKey" _delta="define">
+        <field id="customer" xsi:type="AttributeExternalKey" _delta="define">
           <sql>cliente</sql>
           <is_null_allowed>true</is_null_allowed>
 		  <on_target_delete>DEL_AUTO</on_target_delete>
 		  <target_class>qv_customer</target_class>
         </field>
       </fields>
+	  </class>
+	  <class id="UserRequest" _delta="if_exists">
 	  <presentation>
 				<details>
 					<items>
@@ -48,7 +50,7 @@
 										<item id="title">
 											<rank>50</rank>
 										</item>
-										<item id="cliente">
+										<item id="customer">
 											<rank>60</rank>
 										</item>
 										<item id="description">
@@ -310,7 +312,297 @@
 				</list>
 			</presentation>
      </class>
-	 
+	 <class id="Incident" _delta="if_exists">
+	 <presentation>
+				<details>
+					<items>
+						<item id="functionalcis_list">
+							<rank>10</rank>
+						</item>
+						<item id="contacts_list">
+							<rank>20</rank>
+						</item>
+						<item id="child_incidents_list">
+							<rank>30</rank>
+						</item>
+						<item id="related_request_list">
+							<rank>40</rank>
+						</item>
+						<item id="workorders_list">
+							<rank>50</rank>
+						</item>
+						<item id="col:col1">
+							<rank>60</rank>
+							<items>
+								<item id="fieldset:Ticket:baseinfo">
+									<rank>10</rank>
+									<items>
+										<item id="org_id">
+											<rank>10</rank>
+										</item>
+										<item id="caller_id">
+											<rank>20</rank>
+										</item>
+										<item id="status">
+											<rank>30</rank>
+										</item>
+										<item id="origin">
+											<rank>40</rank>
+										</item>
+										<item id="title">
+											<rank>50</rank>
+										</item>
+										<item id="customer">
+											<rank>55</rank>
+										</item>
+										<item id="description">
+											<rank>60</rank>
+										</item>
+										
+									</items>
+								</item>
+								<item id="fieldset:Ticket:moreinfo">
+									<rank>20</rank>
+									<items>
+										<item id="service_id">
+											<rank>10</rank>
+										</item>
+										<item id="servicesubcategory_id">
+											<rank>20</rank>
+										</item>
+										<item id="escalation_flag">
+											<rank>30</rank>
+										</item>
+										<item id="escalation_reason">
+											<rank>40</rank>
+										</item>
+										<item id="pending_reason">
+											<rank>50</rank>
+										</item>
+									</items>
+								</item>
+							</items>
+						</item>
+						<item id="col:col2">
+							<rank>70</rank>
+							<items>
+								<item id="fieldset:Ticket:Type">
+									<rank>10</rank>
+									<items>
+										<item id="impact">
+											<rank>10</rank>
+										</item>
+										<item id="urgency">
+											<rank>20</rank>
+										</item>
+										<item id="priority">
+											<rank>30</rank>
+										</item>
+									</items>
+								</item>
+								<item id="fieldset:Ticket:contact">
+									<rank>20</rank>
+									<items>
+										<item id="team_id">
+											<rank>10</rank>
+										</item>
+										<item id="agent_id">
+											<rank>20</rank>
+										</item>
+									</items>
+								</item>
+								<item id="fieldset:Ticket:date">
+									<rank>30</rank>
+									<items>
+										<item id="start_date">
+											<rank>10</rank>
+										</item>
+										<item id="last_update">
+											<rank>20</rank>
+										</item>
+										<item id="assignment_date">
+											<rank>30</rank>
+										</item>
+										<item id="tto_escalation_deadline">
+											<rank>40</rank>
+										</item>
+										<item id="ttr_escalation_deadline">
+											<rank>50</rank>
+										</item>
+										<item id="last_pending_date">
+											<rank>60</rank>
+										</item>
+										<item id="resolution_date">
+											<rank>70</rank>
+										</item>
+										<item id="close_date">
+											<rank>80</rank>
+										</item>
+									</items>
+								</item>
+							</items>
+						</item>
+						<item id="col:col3">
+							<rank>80</rank>
+							<items>
+								<item id="fieldset:Ticket:relation">
+									<rank>10</rank>
+									<items>
+										<item id="parent_incident_id">
+											<rank>10</rank>
+										</item>
+										<item id="parent_problem_id">
+											<rank>20</rank>
+										</item>
+										<item id="parent_change_id">
+											<rank>30</rank>
+										</item>
+									</items>
+								</item>
+								<item id="fieldset:Ticket:resolution">
+									<rank>20</rank>
+									<items>
+										<item id="resolution_code">
+											<rank>10</rank>
+										</item>
+										<item id="solution">
+											<rank>20</rank>
+										</item>
+										<item id="time_spent">
+											<rank>30</rank>
+										</item>
+										<item id="user_satisfaction">
+											<rank>40</rank>
+										</item>
+										<item id="user_comment">
+											<rank>50</rank>
+										</item>
+									</items>
+								</item>
+								<item id="fieldset:Ticket:SLA">
+									<rank>30</rank>
+									<items>
+										<item id="sla_tto_passed">
+											<rank>10</rank>
+										</item>
+										<item id="sla_tto_over">
+											<rank>20</rank>
+										</item>
+                    <item id="sla_ttr_passed">
+                      <rank>30</rank>
+                    </item>
+                    <item id="sla_ttr_over">
+                      <rank>40</rank>
+                    </item>
+                  </items>
+                </item>
+              </items>
+            </item>
+            <item id="public_log">
+              <rank>100</rank>
+            </item>
+            <item id="private_log">
+              <rank>110</rank>
+            </item>
+          </items>
+				</details>
+				<search>
+					<items>
+						<item id="ref">
+							<rank>10</rank>
+						</item>
+						<item id="org_id">
+							<rank>20</rank>
+						</item>
+						<item id="title">
+							<rank>30</rank>
+						</item>
+						<item id="description">
+							<rank>40</rank>
+						</item>
+						<item id="start_date">
+							<rank>50</rank>
+						</item>
+						<item id="resolution_date">
+							<rank>70</rank>
+						</item>
+						<item id="close_date">
+							<rank>80</rank>
+						</item>
+						<item id="status">
+							<rank>90</rank>
+						</item>
+						<item id="operational_status">
+							<rank>95</rank>
+						</item>
+						<item id="caller_id">
+							<rank>100</rank>
+						</item>
+						<item id="origin">
+							<rank>110</rank>
+						</item>
+						<item id="impact">
+							<rank>120</rank>
+						</item>
+						<item id="urgency">
+							<rank>130</rank>
+						</item>
+						<item id="priority">
+							<rank>140</rank>
+						</item>
+						<item id="service_id">
+							<rank>150</rank>
+						</item>
+						<item id="servicesubcategory_id">
+							<rank>160</rank>
+						</item>
+						<item id="team_id">
+							<rank>170</rank>
+						</item>
+						<item id="agent_id">
+							<rank>180</rank>
+						</item>
+						<item id="escalation_flag">
+							<rank>190</rank>
+						</item>
+						<item id="resolution_code">
+							<rank>200</rank>
+						</item>
+						<item id="user_satisfaction">
+							<rank>210</rank>
+						</item>
+						<item id="sla_tto_passed">
+							<rank>220</rank>
+						</item>
+						<item id="sla_ttr_passed">
+							<rank>230</rank>
+						</item>
+					</items>
+				</search>
+				<list>
+					<items>
+						<item id="title">
+							<rank>10</rank>
+						</item>
+						<item id="org_id">
+							<rank>20</rank>
+						</item>
+						<item id="caller_id">
+							<rank>30</rank>
+						</item>
+						<item id="start_date">
+							<rank>40</rank>
+						</item>
+						<item id="status">
+							<rank>50</rank>
+						</item>
+						<item id="agent_id">
+							<rank>60</rank>
+						</item>
+					</items>
+				</list>
+			</presentation>
+     </class>
   </classes>
   <user_rights>
     <groups>
@@ -318,4 +610,59 @@
     <profiles>
     </profiles>
   </user_rights>
+  <module_designs>
+	<module_design id="itop-portal" xsi:type="portal">
+			<forms>
+			<form id="ticket-create" _delta="redefine">
+					<class>Ticket</class>
+					<properties>
+						<navigation_rules>
+							<submit>
+								<default>go-to-open-requests</default>
+							</submit>
+						</navigation_rules>
+					</properties>
+					<fields />
+					<twig>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="form_field" data-field-id="service_id" data-field-flags="mandatory">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form_field" data-field-id="servicesubcategory_id" data-field-flags="mandatory">
+								</div>
+							</div>
+						</div>
+						<div id="service_details_placeholder">
+						</div>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="form_field" data-field-id="impact">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form_field" data-field-id="urgency">
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="form_field" data-field-id="title">
+							</div>
+							<div class="form_field" data-field-id="customer">
+							</div>
+							<div class="form_field" data-field-id="description">
+							</div>
+							<div class="form_field" data-field-id="contacts_list">
+							</div>
+						</div>
+					</twig>
+					<modes>
+						<!-- mode id can among create / edit / view -->
+						<mode id="create"/>
+					</modes>
+				</form>
+			</forms>
+	</module_design>
+  </module_designs>
 </itop_design>

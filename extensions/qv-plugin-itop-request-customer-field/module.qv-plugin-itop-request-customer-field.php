@@ -15,7 +15,10 @@ SetupWebPage::AddModule(
 		// Setup
 		//
 		'dependencies' => array(
-			'itop-request-mgmt-itil/3.0.1'
+			'itop-structure/3.0.1',
+			'itop-tickets/3.0.1',
+			'itop-request-mgmt-itil/3.0.1',
+			'itop-incident-mgmt-itil/3.0.1'
 		),
 		'mandatory' => false,
 		'visible' => true,
