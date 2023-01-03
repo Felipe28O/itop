@@ -1,8 +1,0 @@
-.itop-cwcalendar.fc{
-	font: unset;
-	display: unset;
-}
-/* Override iTop 3 CSS reset */
-.itop-cwcalendar.fc th {
-	text-align: center !important;
-}

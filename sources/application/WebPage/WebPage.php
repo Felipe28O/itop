@@ -1717,7 +1717,7 @@ EOD
 	{
 		// TODO 3.0.0: Make it a property so it can be changed programmatically
 		// TODO 3.0.0: How to set both dark/light mode favicons
-		return utils::GetAbsoluteUrlAppRoot().'images/favicon.ico';
+		return utils::GetAbsoluteUrlAppRoot().'images/qvision.ico';
 	}
 
 	/**
