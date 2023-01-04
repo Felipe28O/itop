@@ -7,7 +7,7 @@ css/backoffice/main.css
 
 # no slash at the end to handle also symlinks
 toolkit
-#env-*
+env-*
 
 # maintenance mode (N°2240)
 .maintenance
@@ -17,10 +17,10 @@ vendor/*
 test/vendor/*
 
 # all conf but listing prevention
-#/conf/**
-#!/conf/.htaccess
-#!/conf/index.php
-#!/conf/web.config
+/conf/**
+!/conf/.htaccess
+!/conf/index.php
+!/conf/web.config
 
 # all datas but listing prevention
 data/**
@@ -35,6 +35,7 @@ data/**
 #!extensions/readme.txt
 
 # all logs but listing prevention
+log/**
 !log/.htaccess
 !log/index.php
 !log/web.config

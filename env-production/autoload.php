@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2023-01-04T09:59:45-0500
+// File generated on 2023-01-04T14:35:38-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -63,6 +63,8 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-request-mgmt-itil/model.itop-request
 MetaModel::IncludeModule(MODULESROOT.'/itop-request-mgmt-itil/main.itop-request-mgmt-itil.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-service-mgmt/model.itop-service-mgmt.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-virtualization-mgmt/model.itop-virtualization-mgmt.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-close-usr-rqst/vendor/autoload.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-close-usr-rqst/model.qv-plugin-itop-close-usr-rqst.php');
 MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-customer/vendor/autoload.php');
 MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-customer/model.qv-plugin-itop-customer.php');
 MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-project-name/vendor/autoload.php');
@@ -264,6 +266,11 @@ return array (
   array (
     'root_dir' => $sCurrEnv.'/itop-virtualization-mgmt',
     'version' => '3.0.1',
+  ),
+  'qv-plugin-itop-close-usr-rqst' => 
+  array (
+    'root_dir' => $sCurrEnv.'/qv-plugin-itop-close-usr-rqst',
+    'version' => '1.0.0',
   ),
   'qv-plugin-itop-customer' => 
   array (

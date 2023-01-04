@@ -20,7 +20,7 @@ SetupWebPage::AddModule(
 			'itop-tickets/2.4.0',
 			'itop-config-mgmt/2.4.0',
 			'itop-tickets/2.4.0',
-			'itop-profiles-itil/2.3.0'
+			'itop-profiles-itil/2.3.0,'
 		),
 		'mandatory' => false,
 		'visible' => true,
