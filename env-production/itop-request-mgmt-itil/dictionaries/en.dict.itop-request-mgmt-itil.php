@@ -54,6 +54,8 @@ Dict::Add('EN US', 'English', 'English', array(
 Dict::Add('EN US', 'English', 'English', array(
 	'Class:UserRequest' => 'User Request',
 	'Class:UserRequest+' => '',
+	'Class:UserRequest/Attribute:project_name' => 'Project Name',
+	'Class:UserRequest/Attribute:project_name+' => 'Project Name',
 	'Class:UserRequest/Attribute:status' => 'Status',
 	'Class:UserRequest/Attribute:status+' => '',
 	'Class:UserRequest/Attribute:status/Value:new' => 'New',

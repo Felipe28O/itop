@@ -1,0 +1,16 @@
+{
+  "config": {
+    "classmap-authoritative": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Qvision\\iTop\\Extension\\": "src"
+    }
+  },
+  "name": "qvision/qv-plugin-itop-tree-view",
+  "type": "itop-extension",
+  "description": "tree-view",
+  "require": {
+    "composer-runtime-api": "^2.0"
+  }
+}

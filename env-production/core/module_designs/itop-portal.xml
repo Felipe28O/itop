@@ -263,13 +263,13 @@
           </levels>
         </level>
       </levels>
-      <browse_modes>
+      <browse_modes _altered_in="qv-plugin-itop-tree-view">
         <availables>
           <mode id="list"/>
           <mode id="tree"/>
           <mode id="mosaic"/>
         </availables>
-        <default>list</default>
+        <default>tree</default>
       </browse_modes>
       <!-- Optional. Set the default number of item lists will display. -->
       <!-- <default_list_length>20</default_list_length> -->
@@ -533,7 +533,7 @@
         </div>
       </twig>
     </form>
-    <form id="ticket-create" _altered_in="itop-tickets">
+    <form id="ticket-create" _altered_in="qv-plugin-itop-project-name">
       <class>Ticket</class>
       <properties>
         <navigation_rules>
@@ -547,32 +547,36 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="form_field" data-field-id="service_id" data-field-flags="mandatory">
-								</div>
+												</div>
           </div>
           <div class="col-sm-6">
             <div class="form_field" data-field-id="servicesubcategory_id" data-field-flags="mandatory">
-								</div>
+												</div>
           </div>
         </div>
         <div id="service_details_placeholder">
-						</div>
+										</div>
         <div class="row">
           <div class="col-sm-6">
             <div class="form_field" data-field-id="impact">
-								</div>
+												</div>
           </div>
           <div class="col-sm-6">
             <div class="form_field" data-field-id="urgency">
-								</div>
+												</div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form_field" data-field-id="project_name">
+												</div>
           </div>
         </div>
         <div>
           <div class="form_field" data-field-id="title">
-							</div>
+											</div>
           <div class="form_field" data-field-id="description">
-							</div>
+											</div>
           <div class="form_field" data-field-id="contacts_list">
-							</div>
+											</div>
         </div>
       </twig>
       <modes>

@@ -51,9 +51,11 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 // Class: UserRequest
 //
 
-Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
+Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(	
 	'Class:UserRequest' => 'Requerimiento',
 	'Class:UserRequest+' => 'Requerimiento',
+	'Class:UserRequest/Attribute:project_name' => 'Nombre Proyecto',
+	'Class:UserRequest/Attribute:project_name+' => 'Nombre Proyecto',
 	'Class:UserRequest/Attribute:status' => 'Estatus',
 	'Class:UserRequest/Attribute:status+' => 'Estatus',
 	'Class:UserRequest/Attribute:status/Value:new' => 'Nuevo',

@@ -39,6 +39,8 @@
 Dict::Add('EN US', 'English', 'English', array(
 	'Class:Ticket' => 'Ticket',
 	'Class:Ticket+' => '',
+	'Class:Ticket/Attribute:project_name' => 'Project Name',
+	'Class:Ticket/Attribute:project_name+' => 'Project Name',
 	'Class:Ticket/Attribute:ref' => 'Ref',
 	'Class:Ticket/Attribute:ref+' => '',
 	'Class:Ticket/Attribute:org_id' => 'Organization',

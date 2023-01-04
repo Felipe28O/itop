@@ -1,6 +1,6 @@
 <?php
 //
-// File generated on 2022-12-14T19:25:56-0500
+// File generated on 2023-01-04T09:59:45-0500
 // Please do not edit manually
 //
 MetaModel::IncludeModule(MODULESROOT.'/core/main.php');
@@ -36,6 +36,8 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-themes-compat/model.itop-themes-comp
 MetaModel::IncludeModule(MODULESROOT.'/itop-tickets/main.itop-tickets.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-tickets/model.itop-tickets.php');
 MetaModel::IncludeModule(MODULESROOT.'/itop-welcome-itil/model.itop-welcome-itil.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-tree-view/vendor/autoload.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-tree-view/model.qv-plugin-itop-tree-view.php');
 MetaModel::IncludeModule(MODULESROOT.'/sample-login-custom-css/model.sample-login-custom-css.php');
 MetaModel::IncludeModule(MODULESROOT.'/sample-login-custom-css/main.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-db-tools/model.combodo-db-tools.php');
@@ -63,6 +65,8 @@ MetaModel::IncludeModule(MODULESROOT.'/itop-service-mgmt/model.itop-service-mgmt
 MetaModel::IncludeModule(MODULESROOT.'/itop-virtualization-mgmt/model.itop-virtualization-mgmt.php');
 MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-customer/vendor/autoload.php');
 MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-customer/model.qv-plugin-itop-customer.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-project-name/vendor/autoload.php');
+MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-project-name/model.qv-plugin-itop-project-name.php');
 MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-request-customer-field/vendor/autoload.php');
 MetaModel::IncludeModule(MODULESROOT.'/qv-plugin-itop-request-customer-field/model.qv-plugin-itop-request-customer-field.php');
 MetaModel::IncludeModule(MODULESROOT.'/combodo-sla-computation/model.combodo-sla-computation.php');
@@ -176,6 +180,11 @@ return array (
     'root_dir' => $sCurrEnv.'/itop-welcome-itil',
     'version' => '3.0.1',
   ),
+  'qv-plugin-itop-tree-view' => 
+  array (
+    'root_dir' => $sCurrEnv.'/qv-plugin-itop-tree-view',
+    'version' => '1.0.0',
+  ),
   'sample-itop-logos' => 
   array (
     'root_dir' => $sCurrEnv.'/sample-itop-logos',
@@ -259,6 +268,11 @@ return array (
   'qv-plugin-itop-customer' => 
   array (
     'root_dir' => $sCurrEnv.'/qv-plugin-itop-customer',
+    'version' => '1.0.0',
+  ),
+  'qv-plugin-itop-project-name' => 
+  array (
+    'root_dir' => $sCurrEnv.'/qv-plugin-itop-project-name',
     'version' => '1.0.0',
   ),
   'qv-plugin-itop-request-customer-field' => 

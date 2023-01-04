@@ -64,6 +64,8 @@ Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 Dict::Add('ES CR', 'Spanish', 'Español, Castellano', array(
 	'Class:Incident' => 'Incidente',
 	'Class:Incident+' => 'Incidente',
+	'Class:Incident/Attribute:project_name' => 'Nombre Proyecto',
+	'Class:Incident/Attribute:project_name+' => 'Nombre Proyecto',
 	'Class:Incident/Attribute:status' => 'Estatus',
 	'Class:Incident/Attribute:status+' => 'Estatus',
 	'Class:Incident/Attribute:status/Value:new' => 'Nuevo',

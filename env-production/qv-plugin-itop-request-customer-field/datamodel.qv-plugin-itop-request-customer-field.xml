@@ -95,8 +95,8 @@
 										</item>
 										<item id="priority">
 											<rank>40</rank>
-										</item>
-									</items>
+										</item>										
+									</items>								
 								</item>
 								<item id="fieldset:Ticket:contact">
 									<rank>20</rank>

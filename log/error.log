@@ -152,3 +152,216 @@ array (
   'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
   'line' => 185,
 )
+2022-12-27 15:58:03 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.100.4, user = itop, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-27 15:59:04 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.100.4, user = itop, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-27 15:59:06 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.100.4, user = itop, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-27 16:09:26 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.100.4, user = itop, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-27 16:14:54 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.100.4, user = itop, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-27 16:20:09 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-12-27 16:20:09 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-12-27 16:20:14 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=user_app,ou=People,dc=qvision,dc=com', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
+2022-12-29 14:41:27 | Error   | 25    | Unknown attribute Perros from class UserRequest | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/32/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzIifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2022-12-29 14:43:10 | Error   | 25    | Unknown attribute Perros from class Incident | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/31/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzEifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2022-12-29 14:43:18 | Error   | 25    | Unknown attribute Perros from class UserRequest | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/32/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzIifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2022-12-29 15:09:49 | Error   | 25    | Unknown attribute Perros from class UserRequest | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/32/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzIifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2022-12-29 15:10:08 | Error   | 25    | Unknown attribute Perros from class Incident | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/31/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzEifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2022-12-29 15:45:37 | Error   | 25    | Unknown attribute Perros from class UserRequest | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/32/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzIifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2022-12-30 12:56:53 | Error   | 25    | Unknown attribute project_name from class UserRequest | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/32/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzIifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2022-12-30 12:58:11 | Error   | 25    | Unknown attribute project_name from class Incident | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/31/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzEifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2022-12-30 13:33:45 | Error   | 25    | Unknown attribute project_name from class UserRequest | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/32/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzIifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2022-12-30 14:40:26 | Info    |       | ldap_set_option('17', '3') returned true | IssueLog |||
+2022-12-30 14:40:26 | Info    |       | ldap_set_option('8', '0') returned true | IssueLog |||
+2022-12-30 14:40:31 | Error   |       | ldap_authentication: cannot bind to the LDAP server 'openldap' (port: 1389), user='cn=user_app,ou=People,dc=qvision,dc=com', pwd='****'. Error: 'Can't contact LDAP server'. Check the configuration file config-itop.php. | IssueLog |||
+2022-12-30 18:23:46 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.1.37, user = dcamargo, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2022-12-30 18:24:04 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.1.37, user = dcamargo, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2023-01-02 08:44:29 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.1.37, user = dcamargo, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2023-01-02 08:44:38 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.1.37, user = dcamargo, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2023-01-02 08:45:15 | Error   |       | Uncaught MySQLException: Could not connect to the DB server: host = 192.168.1.37, user = dcamargo, mysql_errno = 2002, mysql_error = Connection refused in /var/www/html/itop/core/cmdbsource.class.inc.php:185
+ | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/core/cmdbsource.class.inc.php',
+  'line' => 185,
+)
+2023-01-02 09:57:53 | Error   | 25    | Uncaught TypeError: Argument 1 passed to Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry::__construct() must be an instance of DateTime, bool given, called in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php on line 92 and defined in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php:65
+Stack trace:
+#0 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php(92): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry->__construct()
+#1 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityPanelFactory.php(117): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\ActivityEntryFactory::MakeFromCaseLogEntryArray()
+#2 /var/www/html/itop/sources/application/UI/Base/Layout/PageContent/PageContentFactory.php(69): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\Ac | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php',
+  'line' => 65,
+)
+2023-01-02 09:57:58 | Error   | 25    | Uncaught TypeError: Argument 1 passed to Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry::__construct() must be an instance of DateTime, bool given, called in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php on line 92 and defined in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php:65
+Stack trace:
+#0 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php(92): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry->__construct()
+#1 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityPanelFactory.php(117): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\ActivityEntryFactory::MakeFromCaseLogEntryArray()
+#2 /var/www/html/itop/sources/application/UI/Base/Layout/PageContent/PageContentFactory.php(69): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\Ac | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php',
+  'line' => 65,
+)
+2023-01-02 09:58:39 | Error   | 25    | Uncaught TypeError: Argument 1 passed to Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry::__construct() must be an instance of DateTime, bool given, called in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php on line 92 and defined in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php:65
+Stack trace:
+#0 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php(92): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry->__construct()
+#1 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityPanelFactory.php(117): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\ActivityEntryFactory::MakeFromCaseLogEntryArray()
+#2 /var/www/html/itop/sources/application/UI/Base/Layout/PageContent/PageContentFactory.php(69): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\Ac | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php',
+  'line' => 65,
+)
+2023-01-02 09:58:59 | Error   | 25    | Uncaught TypeError: Argument 1 passed to Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry::__construct() must be an instance of DateTime, bool given, called in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php on line 92 and defined in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php:65
+Stack trace:
+#0 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php(92): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry->__construct()
+#1 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityPanelFactory.php(117): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\ActivityEntryFactory::MakeFromCaseLogEntryArray()
+#2 /var/www/html/itop/sources/application/UI/Base/Layout/PageContent/PageContentFactory.php(69): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\Ac | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php',
+  'line' => 65,
+)
+2023-01-02 09:59:03 | Error   | 25    | Uncaught TypeError: Argument 1 passed to Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry::__construct() must be an instance of DateTime, bool given, called in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php on line 92 and defined in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php:65
+Stack trace:
+#0 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php(92): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry->__construct()
+#1 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityPanelFactory.php(117): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\ActivityEntryFactory::MakeFromCaseLogEntryArray()
+#2 /var/www/html/itop/sources/application/UI/Base/Layout/PageContent/PageContentFactory.php(69): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\Ac | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php',
+  'line' => 65,
+)
+2023-01-02 10:00:00 | Error   | 25    | Uncaught TypeError: Argument 1 passed to Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry::__construct() must be an instance of DateTime, bool given, called in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php on line 92 and defined in /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php:65
+Stack trace:
+#0 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/ActivityEntryFactory.php(92): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\CaseLogEntry->__construct()
+#1 /var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityPanelFactory.php(117): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\ActivityEntry\ActivityEntryFactory::MakeFromCaseLogEntryArray()
+#2 /var/www/html/itop/sources/application/UI/Base/Layout/PageContent/PageContentFactory.php(69): Combodo\iTop\Application\UI\Base\Layout\ActivityPanel\Ac | IssueLog |||
+array (
+  'type' => 1,
+  'file' => '/var/www/html/itop/sources/application/UI/Base/Layout/ActivityPanel/ActivityEntry/CaseLogEntry.php',
+  'line' => 65,
+)
+2023-01-02 12:24:41 | Error   | 25    | Unknown attribute project_name from class UserRequest | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/32/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzIifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)
+2023-01-02 12:24:49 | Error   | 25    | Unknown attribute project_name from class UserRequest | Exception |||
+array (
+  'exception class' => 'Exception',
+  'file' => '/var/www/html/itop/core/metamodel.class.php',
+  'line' => 1672,
+  'uri' => 'http://localhost:3000/itop/pages/exec.php/object/create-from-factory/ServiceSubcategory/32/XFRpY2tldDo6Q3JlYXRlRnJvbVNlcnZpY2VTdWJjYXRlZ29yeQ==?ar_token=eyJydWxlcyI6WyJjb250YWN0LXRvLXVzZXJyZXF1ZXN0Iiwic2VydmljZXN1YmNhdGVnb3J5LXRvLXVzZXJyZXF1ZXN0IiwiZ28tdG8tb3Blbi1yZXF1ZXN0LW9uLXN1Ym1pdCJdLCJzb3VyY2VzIjp7IlNlcnZpY2VGYW1pbHkiOiIyIiwiU2VydmljZSI6IjEwIiwiU2VydmljZVN1YmNhdGVnb3J5IjoiMzIifX0%3D&exec_module=itop-portal-base&exec_page=index.php&portal_id=itop-portal',
+)

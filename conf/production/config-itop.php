@@ -69,15 +69,15 @@ $MySettings = array(
 	//		)
 	'date_and_time_format' => array('default' => array('date' => 'Y-m-d', 'time' => 'H:i:s', 'date_time' => '$date $time')),
 
-	'db_host' => '192.168.100.4',
+	'db_host' => '192.168.1.38',
 
 	'db_name' => 'itop_prod',
 
-	'db_pwd' => 'admin',
+	'db_pwd' => 'danielr4',
 
 	'db_subname' => '',
 
-	'db_user' => 'itop',
+	'db_user' => 'dcamargo',
 
 	// deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
 	//	default: '$difference$'

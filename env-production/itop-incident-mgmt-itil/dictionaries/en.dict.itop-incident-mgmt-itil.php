@@ -63,6 +63,8 @@ Dict::Add('EN US', 'English', 'English', array(
 Dict::Add('EN US', 'English', 'English', array(
 	'Class:Incident' => 'Incident',
 	'Class:Incident+' => '',
+	'Class:Incident/Attribute:project_name' => 'Project Name',
+	'Class:Incident/Attribute:project_name+' => 'Project Name',
 	'Class:Incident/Attribute:status' => 'Status',
 	'Class:Incident/Attribute:status+' => '',
 	'Class:Incident/Attribute:status/Value:new' => 'New',
