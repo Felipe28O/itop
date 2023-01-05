@@ -356,8 +356,11 @@
 													<item id="project_name">
 														<rank>60</rank>
 													</item>
-													<item id="description">
+													<item id="customer">
 														<rank>70</rank>
+													</item>
+													<item id="description">
+														<rank>80</rank>
 													</item>
 												</items>
 											</item>
