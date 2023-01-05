@@ -334,7 +334,7 @@
 						<item id="col:col1">
 							<rank>60</rank>
 							<items>
-								<item id="fieldset:Ticket:baseinfo">
+								 <item id="fieldset:Ticket:baseinfo">
 									<rank>10</rank>
 									<items>
 										<item id="org_id">
@@ -352,7 +352,6 @@
 										<item id="title">
 											<rank>50</rank>
 										</item>
-
 										<item id="project_name">
 											<rank>60</rank>
 										</item>
@@ -361,15 +360,7 @@
 										</item>
 										<item id="description">
 											<rank>80</rank>
-
-										<item id="customer">
-											<rank>55</rank>
 										</item>
-										<item id="description">
-											<rank>60</rank>
-
-										</item>
-										
 									</items>
 								</item>
 								<item id="fieldset:Ticket:moreinfo">
@@ -656,13 +647,11 @@
 								<div class="form_field" data-field-id="urgency">
 								</div>
 							</div>
-<<<<<<< HEAD
+
 							<div class="col-sm-6">
 								<div class="form_field" data-field-id="project_name">
 								</div>
 							</div>
-=======
->>>>>>> 061ffc8a173b501713126a33bbc15a519a0e12cd
 						</div>
 						<div>
 							<div class="form_field" data-field-id="title">
