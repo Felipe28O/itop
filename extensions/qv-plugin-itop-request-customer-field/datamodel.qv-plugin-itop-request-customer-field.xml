@@ -334,7 +334,7 @@
 						<item id="col:col1">
 							<rank>60</rank>
 							<items>
-								 <item id="fieldset:Ticket:baseinfo">
+								<item id="fieldset:Ticket:baseinfo">
 									<rank>10</rank>
 									<items>
 										<item id="org_id">
@@ -647,7 +647,6 @@
 								<div class="form_field" data-field-id="urgency">
 								</div>
 							</div>
-
 							<div class="col-sm-6">
 								<div class="form_field" data-field-id="project_name">
 								</div>
