@@ -1,3 +1,0 @@
-IMPORTANT: The library is now based on corejavascript/typeahead as the original twitter/typeahead is no longer maintained.
-
-https://github.com/corejavascript/typeahead.js/tree/master/dist
