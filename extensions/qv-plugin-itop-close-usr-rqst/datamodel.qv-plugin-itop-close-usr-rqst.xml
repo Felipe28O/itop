@@ -623,9 +623,6 @@
                                         <item id="user_satisfaction">
                                             <rank>40</rank>
                                         </item>
-										<item id="user_satisfaction">
-											<rank>40</rank>
-										</item>
 										<item id="user_comment">
 											<rank>50</rank>
 										</item>
