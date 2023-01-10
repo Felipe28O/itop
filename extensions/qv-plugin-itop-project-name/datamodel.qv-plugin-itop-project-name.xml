@@ -177,6 +177,12 @@
 										<item id="time_spent">
 											<rank>30</rank>
 										</item>
+										<item id="close_reason">
+											<rank>36</rank>
+										</item>
+										<item id="close_observation">
+											<rank>39</rank>
+										</item>
 										<item id="user_satisfaction">
 											<rank>40</rank>
 										</item>
