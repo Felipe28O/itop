@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.6">
 			<classes>
-				<class id="Ticket" _delta="if_exists">
-					<fields>
-						<field id="project_name" xsi:type="AttributeString" _delta="define">    
-		                     <sql>project_name</sql>
-		                     <default_value/>
-		                     <is_null_allowed>true</is_null_allowed>
-		                </field>
-					</fields>							
-				</class>
 				<class id="UserRequest" _delta="if_exists">
-					<presentation _delta="redefine">
+				<presentation _delta="redefine">
 				<details>
 					<items>
 						<item id="functionalcis_list">
@@ -176,6 +167,9 @@
 										</item>
 										<item id="time_spent">
 											<rank>30</rank>
+										</item>
+										<item id="presale_close">
+											<rank>33</rank>
 										</item>
 										<item id="close_reason">
 											<rank>36</rank>
@@ -480,6 +474,15 @@
 													<item id="time_spent">
 														<rank>30</rank>
 													</item>
+													<item id="presale_close">
+														<rank>33</rank>
+													</item>
+													<item id="close_reason">
+														<rank>36</rank>
+													</item>
+													<item id="close_observation">
+														<rank>39</rank>
+													</item>
 													<item id="user_satisfaction">
 														<rank>40</rank>
 													</item>
@@ -613,7 +616,86 @@
 						</presentation>
 			</class>
 			
->>>>>>> extensions/qv-plugin-itop-project-name/datamodel.qv-plugin-itop-project-name.xml
 			</classes>
+			
+					
+					
+					<module_designs>	
+						<module_design id="itop-portal" xsi:type="portal" >
+							<forms>
+								<form id="ticket-create" _delta="redefine">
+									<class>Ticket</class>
+									<properties>
+										<navigation_rules>
+											<submit>
+												<default>go-to-open-requests</default>
+											</submit>
+										</navigation_rules>
+									</properties>
+									<fields />
+									<twig>
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="form_field" data-field-id="service_id" data-field-flags="mandatory">
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form_field" data-field-id="servicesubcategory_id" data-field-flags="mandatory">
+												</div>
+											</div>
+										</div>
+										<div id="service_details_placeholder">
+										</div>
+										<div class="row">
+											<div class="col-sm-6">
+												<div class="form_field" data-field-id="impact">
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form_field" data-field-id="urgency">
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form_field" data-field-id="project_name">
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="form_field" data-field-id="title">
+											</div>
+											<div class="form_field" data-field-id="customer">
+											</div>
+											<div class="form_field" data-field-id="description">
+											</div>
+											<div class="form_field" data-field-id="contacts_list">
+											</div>
+										</div>
+									</twig>
+									<modes>
+										<!-- mode id can among create / edit / view -->
+										<mode id="create"/>
+									</modes>
+								</form>
+							</forms>
+						</module_design>
+					</module_designs>
+					<menus>
+  
+        <menu id="Contact" xsi:type="DashboardMenuNode" _delta="must_exist">
+            <definition>
+              <cells>
+                <cell id="0" _delta="must_exist">
+                  <dashlets>
+                    <dashlet id="4" xsi:type="DashletBadge" _delta="define">
+                      <rank>4</rank>
+                      <class>qv_customer</class>
+                    </dashlet>
+                  </dashlets>
+                </cell>
+              </cells>
+            </definition>
+          </menu>
+    
+  </menus>
 				
 	</itop_design>
