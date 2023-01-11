@@ -8,5 +8,9 @@
 
 Dict::Add('EN US', 'English', 'English', array(
 	// Dictionary entries go here
+	'Class:Ticket/Attribute:project_name' => 'Project Name',
+	'Class:Ticket/Attribute:project_name+' => 'Project Name',
+	'Class:Ticket/Attribute:company_acronym' => 'Company Acronym',
+	'Class:Ticket/Attribute:company_acronym+' => 'Company Acronym',
 ));
 ?>

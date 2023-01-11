@@ -41,11 +41,14 @@
 										<item id="project_name">
 											<rank>60</rank>
 										</item>
-										<item id="customer">
+										<item id="company_acronym">
 											<rank>70</rank>
 										</item>
-										<item id="description">
+										<item id="customer">
 											<rank>80</rank>
+										</item>
+										<item id="description">
+											<rank>90</rank>
 										</item>
 									</items>
 								</item>
@@ -356,11 +359,14 @@
 													<item id="project_name">
 														<rank>60</rank>
 													</item>
-													<item id="customer">
+													<item id="company_acronym">
 														<rank>70</rank>
 													</item>
-													<item id="description">
+													<item id="customer">
 														<rank>80</rank>
+													</item>
+													<item id="description">
+														<rank>90</rank>
 													</item>
 												</items>
 											</item>
@@ -657,6 +663,10 @@
 											</div>
 											<div class="col-sm-6">
 												<div class="form_field" data-field-id="project_name">
+												</div>
+											</div>
+											<div class="col-sm-6">
+												<div class="form_field" data-field-id="company_acronym">
 												</div>
 											</div>
 										</div>
