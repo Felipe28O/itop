@@ -77,22 +77,4 @@
 	</class>
 	
   </classes>
-  <menus>
-  
-        <menu id="Contact" xsi:type="DashboardMenuNode" _delta="must_exist">
-            <definition>
-              <cells>
-                <cell id="0" _delta="must_exist">
-                  <dashlets>
-                    <dashlet id="4" xsi:type="DashletBadge" _delta="define">
-                      <rank>4</rank>
-                      <class>qv_customer</class>
-                    </dashlet>
-                  </dashlets>
-                </cell>
-              </cells>
-            </definition>
-          </menu>
-    
-  </menus>
 </itop_design>
